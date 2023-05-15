@@ -333,15 +333,7 @@ class JazzApplicationXml
         {
             var level_test_str = '';
 
-            if (0 == this.m_n_level_xml)
-            {
-                level_test_str = '';
-            }
-            else if (1 == this.m_n_level_xml)
-            {
-                level_test_str = '';
-            }
-            else if (2 == this.m_n_level_xml)
+            if (2 == this.m_n_level_xml)
             {
                 level_test_str = '../';
             }
@@ -349,15 +341,8 @@ class JazzApplicationXml
             {
                 level_test_str = '../../';
             }
-            else
-            {
-                alert("JazzApplicationXml.getXmlApplicationFileName i_n_level= " + 
-                this.m_n_level_xml.toString() + " nicht between 0 and 3. For test data");
 
-                return level_test_str + ret_file_name;
-            }
-
-            return this.m_xml_file_name_local;
+            return level_test_str + this.m_xml_file_name_local;
         }        
 
         return ret_file_name;

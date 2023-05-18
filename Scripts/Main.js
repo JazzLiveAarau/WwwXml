@@ -1,5 +1,5 @@
 // File: Main.js
-// Date: 2023-05-15
+// Date: 2023-05-18
 // Author: Gunnar Lidén
 
 // Inhalt
@@ -38,9 +38,18 @@ function callbackApplicationXml()
 {
     var n_members = g_application_xml.getNumberOfMembers();
 
+    var it_keywords = [];
+    it_keywords[0] = 'Webmaster';
+    it_keywords[1] = 'Programmierer';
+    it_keywords[2] = ' IT ';
+    it_keywords[3] = 'Entwicklung';
+
+    var n_it_team_members = g_application_xml.getNumberOfItTeamMembers(it_keywords);
+
     var application_el = getDivElementApplicationResults();
 
-    application_el.innerHTML = "n_members= " + n_members.toString();
+    application_el.innerHTML = 'n_members= ' + n_members.toString() + '<br>' +
+                               'n_it_team_members= ' + n_it_team_members.toString();
 
 } // callbackApplicationXml
 
@@ -75,7 +84,7 @@ function getIdDivElementApplicationResults()
 // /www/JazzScripts/. The directory name is defined in file MergeLoginLogout.php.
 function eventMergeFiles()
 {
-    var file_name = 'Xml_20230515.js';
+    var file_name = 'Xml_20230518.js';
 
     $.post
       ('PhpMerge/MergeXml.php',

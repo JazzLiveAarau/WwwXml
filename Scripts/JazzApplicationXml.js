@@ -1,5 +1,5 @@
 // File: JazzApplicationXml.js
-// Date: 2023-05-15
+// Date: 2023-05-18
 // Author: Gunnar Lidén
 
 // File content
@@ -68,7 +68,42 @@ class JazzApplicationXml
 
     // TODO All other member data functions
 
+    // Returns the member tasks
+    getMemberTasks(i_member_number)
+    {
+        return this.getMemberNodeValue(this.m_tags.getMemberTasks(), i_member_number);
+        
+    } // getMemberTasks
 
+    // Returns the member tasks short
+    getMemberTasksShort(i_member_number)
+    {
+        return this.getMemberNodeValue(this.m_tags.getMemberTasksShort(), i_member_number);
+        
+    } // getMemberTasksShort
+
+    // Returns the member active flag ("TRUE" or "FALSE")
+    getMemberActiveFlag(i_member_number)
+    {
+        return this.getMemberNodeValue(this.m_tags.getMemberActiveFlag(), i_member_number);
+        
+    } // getMemberActiveFlag
+
+    // Returns the member active flag (true or false)
+    getMemberActiveFlagBool(i_member_number)
+    {
+        var flag_str = this.getMemberActiveFlag(i_member_number);
+
+        if (flag_str == 'TRUE' || flag_str == 'true')
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    } // getMemberActiveFlagBool
 
 
     // Returns the member password
@@ -80,6 +115,97 @@ class JazzApplicationXml
 
     ///////////////////////////////////////////////////////////////////////////
     ///////////////////////// End Member Data /////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////////////////
+    ///////////////////////// Start Member Utility Functions //////////////////
+    ///////////////////////////////////////////////////////////////////////////
+
+    // Returns true if the member is in the IT team. The member must be active
+    // i_member_name: Member (first) name
+    // i_it_keyword_array: Array of tasks defining an IT task
+    memberOfItTeam(i_member_name, i_it_keyword_array)
+    {
+        var ret_it_team = false;
+
+        if (null == i_it_keyword_array)
+        {
+            alert("JazzApplicationXml.memberOfItTeam Input array of IT keywords is not defined");
+
+            return false;            
+        }
+
+        var n_members = this.getNumberOfMembers();
+
+        var n_keywords = i_it_keyword_array.length;
+        if (n_keywords == 0)
+        {
+            alert("JazzApplicationXml.memberOfItTeam Zero IT keywords");
+
+            return false;
+        }
+
+        for (var member_number=1; member_number <= n_members; member_number++)
+        {
+            var member_name = this.getMemberName(member_number);
+
+            var member_active = this.getMemberActiveFlagBool(member_number);
+
+            if (i_member_name == member_name && member_active)
+            {
+                var all_tasks = this.getMemberTasksShort(member_number) + ' ' +
+                               this.getMemberTasks(member_number);
+
+                for (var index_key=0; index_key < n_keywords; index_key++)
+                {
+                    var current_key = i_it_keyword_array[index_key];
+
+                    var index_of = all_tasks.indexOf(current_key);
+
+                    if (index_of >= 0)
+                    {
+                        ret_it_team = true;
+
+                        break;
+                    }
+
+                } // index_key
+
+            } // name found
+
+        } // member_number
+
+        return ret_it_team;
+
+    } // memberOfItTeam
+
+    // Test function
+    // Returns the number of IT team members
+    // i_it_keyword_array: Array of tasks defining an IT task
+    getNumberOfItTeamMembers(i_it_keyword_array)
+    {
+        var ret_n_it_members = 0;
+
+        var n_members = this.getNumberOfMembers();
+
+        for (var member_number=1; member_number <= n_members; member_number++)
+        {
+            var member_name = this.getMemberName(member_number);
+
+            if (this.memberOfItTeam(member_name, i_it_keyword_array))
+            {
+                ret_n_it_members = ret_n_it_members + 1;
+            }
+
+        }
+
+        return ret_n_it_members;
+
+    } // getNumberOfItTeamMembers
+
+
+    ///////////////////////////////////////////////////////////////////////////
+    ///////////////////////// End Member Utility Functions ////////////////////
     ///////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////
@@ -550,6 +676,13 @@ class JazzApplicationTags
 
     getMember(){return this.m_tag_application_member;} 
     getMemberName(){return this.m_tag_application_member_name;} 
+
+    getMemberTasks(){return this.m_tag_application_member_tasks;} 
+
+    getMemberTasksShort(){return this.m_tag_application_member_tasks_short;} 
+
+    getMemberActiveFlag(){return this.m_tag_application_member_active_flag;} 
+   
 
     getMemberPassword(){return this.m_tag_application_member_password;} 
 

@@ -1,0 +1,699 @@
+<?xml version= "1.0" encoding="utf-8"?>
+<!--  JAZZ live AARAU guests -->  
+<HomepageJazzGuests>
+
+	<JazzGuest>
+		<JazzGuestYear>2006</JazzGuestYear>
+		<JazzGuestMonth>2</JazzGuestMonth>
+		<JazzGuestDay>18</JazzGuestDay>
+		<JazzGuestHeader>Stewy von Wattenwyl Trio</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Gianin Flucher</JazzGuestNames>
+		<JazzGuestRemark>Sohn von Martin Flucher (Konzertbesucher)</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20060218_GianinFlucher.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>1</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2006</JazzGuestYear>
+		<JazzGuestMonth>11</JazzGuestMonth>
+		<JazzGuestDay>25</JazzGuestDay>
+		<JazzGuestHeader>Peter Schärli Trio featuring Ithamara Koorax</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Peter Schärli, Ithamara Koorax, Markus Stalder, Thomas Dürst</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20061125_PeterScharli.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>2</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2006</JazzGuestYear>
+		<JazzGuestMonth>12</JazzGuestMonth>
+		<JazzGuestDay>9</JazzGuestDay>
+		<JazzGuestHeader>Erich Gandet Quintet</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Erich Gandet, Bruno Gandet, Rougie Rothenbühler, Tico Keller, Hannes Hänggli</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20061209_ErichGandetQuintet.png</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>3</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2007</JazzGuestYear>
+		<JazzGuestMonth>1</JazzGuestMonth>
+		<JazzGuestDay>27</JazzGuestDay>
+		<JazzGuestHeader>Urban Spaces Quartet</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Francis Petter, Edgar Marc Petter, Peter Hunziker, Bruno Huwyler</JazzGuestNames>
+		<JazzGuestRemark>GaestebuchJazzLiveAarau. Erlaubnis Veronique Weiersmüller</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/20070127_UrbanSpaces.png</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>4</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2007</JazzGuestYear>
+		<JazzGuestMonth>2</JazzGuestMonth>
+		<JazzGuestDay>10</JazzGuestDay>
+		<JazzGuestHeader>Voice it</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Lisette Spinnler</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20070210_VoiceIt.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>5</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2007</JazzGuestYear>
+		<JazzGuestMonth>2</JazzGuestMonth>
+		<JazzGuestDay>24</JazzGuestDay>
+		<JazzGuestHeader>Mark Koch Trio</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Mark Koch, Sam Joss, Peter Fischer</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20070224_MarkKoch.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>6</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2007</JazzGuestYear>
+		<JazzGuestMonth>3</JazzGuestMonth>
+		<JazzGuestDay>24</JazzGuestDay>
+		<JazzGuestHeader>Wheres Africa Quartet</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Irène Schweizer, Omri Ziegele, Adrian Mears, Makaya Ntshoko</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20070324_WheresAfricaQuartet.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>7</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2007</JazzGuestYear>
+		<JazzGuestMonth>10</JazzGuestMonth>
+		<JazzGuestDay>27</JazzGuestDay>
+		<JazzGuestHeader>Oli Kuster Kombo</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Oli Kuster, Jürg Bucher, Lorenz Beyeler</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20071027_OliKusterKombo.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>8</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2007</JazzGuestYear>
+		<JazzGuestMonth>11</JazzGuestMonth>
+		<JazzGuestDay>10</JazzGuestDay>
+		<JazzGuestHeader>Erich Fischer Quintett</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Joey Oz Fischer, René Mosele, Vasko Atanasovski, Claudio Strebel, Benno Kaiser</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20071110_ErichFischerQuintett.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>9</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2007</JazzGuestYear>
+		<JazzGuestMonth>11</JazzGuestMonth>
+		<JazzGuestDay>24</JazzGuestDay>
+		<JazzGuestHeader>Michael Hammer Trio</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Floriano Inaco Junior, Andreas Aeberhard, Michael Hammer</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20071124_MichaelHammerTrio.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>10</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2007</JazzGuestYear>
+		<JazzGuestMonth>12</JazzGuestMonth>
+		<JazzGuestDay>8</JazzGuestDay>
+		<JazzGuestHeader>Hornknox</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Klaus Widmer, Michael Beck, Michael Zisman, Giorgos Antoniou, Daniel Aebi</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20071208_Hornknox.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>11</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2008</JazzGuestYear>
+		<JazzGuestMonth>2</JazzGuestMonth>
+		<JazzGuestDay>9</JazzGuestDay>
+		<JazzGuestHeader>Greasy</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Roland Köppel, Oliver Keller, Christian Niederer</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20080209_Greasy.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>12</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2008</JazzGuestYear>
+		<JazzGuestMonth>2</JazzGuestMonth>
+		<JazzGuestDay>23</JazzGuestDay>
+		<JazzGuestHeader>Stefano Romerio Trio</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Alfredo Ferrario, Stefano Romerio, Roberto Piccolo, Massimo Caracca</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20080223_StefanoRomerioTrio.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>13</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2008</JazzGuestYear>
+		<JazzGuestMonth>3</JazzGuestMonth>
+		<JazzGuestDay>8</JazzGuestDay>
+		<JazzGuestHeader>Ladybirds</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Gina Günthard, Lisette Spinnler, Petra Vogel, Oliver Friedli, Emanuel Schnyder, Michael Stutz</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20080308_Ladybirds.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>14</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2008</JazzGuestYear>
+		<JazzGuestMonth>3</JazzGuestMonth>
+		<JazzGuestDay>29</JazzGuestDay>
+		<JazzGuestHeader>Barbara Balzan</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Barbara Balzan</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20080329_BarbaraBalzan.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>15</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2008</JazzGuestYear>
+		<JazzGuestMonth>10</JazzGuestMonth>
+		<JazzGuestDay>11</JazzGuestDay>
+		<JazzGuestHeader>Die Vier Tenöre</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Daniel Bohnenblust, Jan Galega Brönnimann, Roli von Flüe, Klaus Widmer</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20081011_dieVierTenoere.png</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>16</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2008</JazzGuestYear>
+		<JazzGuestMonth>10</JazzGuestMonth>
+		<JazzGuestDay>25</JazzGuestDay>
+		<JazzGuestHeader>The Jazz Workshop</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Lalo Conversano, Claudio Chiara, Alberto Buzzi, Danilo Moccia, Carlo Ubaldi, Yuri Gulobev, Verio Debona</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20081025_TheJazzWorkshop.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>17</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2008</JazzGuestYear>
+		<JazzGuestMonth>10</JazzGuestMonth>
+		<JazzGuestDay>25</JazzGuestDay>
+		<JazzGuestHeader>The Jazz Workshop</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Lalo Conversano, Claudio Chiara, Alberto Buzzi, Danilo Moccia, Carlo Ubaldi, Yuri Gulobev, Verio Debona</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20081025_TheJazzWorkshop_2.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>18</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2008</JazzGuestYear>
+		<JazzGuestMonth>11</JazzGuestMonth>
+		<JazzGuestDay>8</JazzGuestDay>
+		<JazzGuestHeader>J.M. Rhythm Four featuring Charito</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Charito, Jürg Morgenthaler, Alessandro d'Episcopo, Christoph Sprenger, Pius Baschnagel</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20081108_JMRhythmFour.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>19</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2008</JazzGuestYear>
+		<JazzGuestMonth>12</JazzGuestMonth>
+		<JazzGuestDay>6</JazzGuestDay>
+		<JazzGuestHeader>Four or more Flutes</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Charles Davis, Norbert Dehmke, Felix Hodel, Andieh Merk, Stefan Mölkner</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20081206_FourOrMoreFlutes.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>20</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>1</JazzGuestMonth>
+		<JazzGuestDay>17</JazzGuestDay>
+		<JazzGuestHeader>Stewy von Wattenwyls WABASH</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Stewy von Wattenwyl, Pius Baschnagel, Daniel Woodtli, Alex Hendriksen</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20090117_StewyVonWattenwyl.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>21</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>1</JazzGuestMonth>
+		<JazzGuestDay>31</JazzGuestDay>
+		<JazzGuestHeader>Francesca Keller Group</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Ricardo Regidor, Reimund Gerstner, Samuel Dühsler, Wege Wüthrich</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20090131_FrancescaKellerGroup.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>22</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>2</JazzGuestMonth>
+		<JazzGuestDay>14</JazzGuestDay>
+		<JazzGuestHeader>DKgramm plays Horace Silver</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Doris Mätzler, Károly Gáspár, Dietmar Kirchner, Klaus Raidt </JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20090214_DKgramm.png</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>23</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>2</JazzGuestMonth>
+		<JazzGuestDay>28</JazzGuestDay>
+		<JazzGuestHeader>Luigi Ferrara Quartet</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>NotYetSetNodeValue</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20090228_LuigiFerraraQuartet.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>24</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>3</JazzGuestMonth>
+		<JazzGuestDay>14</JazzGuestDay>
+		<JazzGuestHeader>Klingsor Trio</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Gregor Loepfe, Matthias Ammann, Eric Rütsche</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20090314_KlingsorTrio.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>25</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>3</JazzGuestMonth>
+		<JazzGuestDay>28</JazzGuestDay>
+		<JazzGuestHeader>New Shoes</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Hans Kennel, Nathanael Su, Bruno Spoerri, Herbie Kopf, Elmar Frey</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20090328_NewShoes.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>26</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>9</JazzGuestMonth>
+		<JazzGuestDay>26</JazzGuestDay>
+		<JazzGuestHeader>Christoph Irniger Quartet</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Christoph Irniger, Chris Wiesendanger, Christian Weber, Claudio Strüby</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20090926_ChristophIrnigerQuartet.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>27</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>10</JazzGuestMonth>
+		<JazzGuestDay>10</JazzGuestDay>
+		<JazzGuestHeader>Thomas Lüscher new trio</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Thomas Lüscher, Manuel Müller, Samuel Dühsler</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20091010_ThomasLuescherNewTrio.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>28</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>10</JazzGuestMonth>
+		<JazzGuestDay>10</JazzGuestDay>
+		<JazzGuestHeader>Thomas Lüscher new trio</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Thomas Lüscher, Manuel Müller, Samuel Dühsler</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20091010_ThomasLuescherNewTrio_2.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>29</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>10</JazzGuestMonth>
+		<JazzGuestDay>24</JazzGuestDay>
+		<JazzGuestHeader>Michael Hammer Quartet</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Michael Hammer, Oliver Widmer, Fridolin Blumer</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20091025_MichaelHammerQuartet.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>30</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>10</JazzGuestMonth>
+		<JazzGuestDay>24</JazzGuestDay>
+		<JazzGuestHeader>Accordion Project</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Rossella Bellinelli, Danilo Boggini, Sandro Di Pisa, Alberto Guareschi, Mauro Pesenti</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20091024_AccordionProject.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>31</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>11</JazzGuestMonth>
+		<JazzGuestDay>7</JazzGuestDay>
+		<JazzGuestHeader>Gabriela Krapf Quartet</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Gabriela Krapf, Christian Münchinger, Roberto Bossard, Raffaele Bossard</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20091107_GabrielaKrapfQuartet.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>32</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>11</JazzGuestMonth>
+		<JazzGuestDay>21</JazzGuestDay>
+		<JazzGuestHeader>Daniel Blanc Quartett</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Daniel Blanc, Walter Jauslin, Giorgos Antoniou, Peter Schmidlin</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20091121_DanielBlancQuartett.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>33</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2009</JazzGuestYear>
+		<JazzGuestMonth>12</JazzGuestMonth>
+		<JazzGuestDay>5</JazzGuestDay>
+		<JazzGuestHeader>Michael Gassmann Fearless Five</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Michael Gassmann, Gregor Müller, Eric Hunziker, Herbert Kramis</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20091205_MichaelGassmann.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>34</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2010</JazzGuestYear>
+		<JazzGuestMonth>2</JazzGuestMonth>
+		<JazzGuestDay>6</JazzGuestDay>
+		<JazzGuestHeader>Othella Dallas and Band</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Othella Dallas</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20100206_OthellaDallasAndBand.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>35</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2010</JazzGuestYear>
+		<JazzGuestMonth>2</JazzGuestMonth>
+		<JazzGuestDay>6</JazzGuestDay>
+		<JazzGuestHeader>Othella Dallas and Band</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Hannes Bürgi, Michael Chylewski, Urs Müller, Lucas Gasser</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20100206_OthellaDallasAndBand_2.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>36</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2010</JazzGuestYear>
+		<JazzGuestMonth>3</JazzGuestMonth>
+		<JazzGuestDay>6</JazzGuestDay>
+		<JazzGuestHeader>Michael Neff Group featuring Marie Malou</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Marie Malou, Michael Neff, Markus Bischof, Ralph Hufenus, Mario Söldi</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20100306_MichaelNeffGroup.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>37</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2010</JazzGuestYear>
+		<JazzGuestMonth>3</JazzGuestMonth>
+		<JazzGuestDay>20</JazzGuestDay>
+		<JazzGuestHeader>Stewy von Wattenwyl Trio featuring Ray Blue</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Ray Blue, Stewy von Wattenwyl, Christoph Sprenger, Kevin Chesham</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20100320_StewyVonWattenwyl.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>38</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2010</JazzGuestYear>
+		<JazzGuestMonth>10</JazzGuestMonth>
+		<JazzGuestDay>30</JazzGuestDay>
+		<JazzGuestHeader>Barbara Balzan Quartet feat. Paolo Fresú</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Barbara Balzan, Paolo Fresú, Attilio Zanchi, Gregor Müller, Tony Renold</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20101030_BBalzan4PaoloFresu.png</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>39</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2011</JazzGuestYear>
+		<JazzGuestMonth>3</JazzGuestMonth>
+		<JazzGuestDay>12</JazzGuestDay>
+		<JazzGuestHeader>Marc Hunziker Trio</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Laura Cesar, Jürg Voney, Marc Hunziker</JazzGuestNames>
+		<JazzGuestRemark>12.03.2011 Marc Hunziker Trio </JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20110312_MarcHunzikerTrio.png</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>40</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2013</JazzGuestYear>
+		<JazzGuestMonth>3</JazzGuestMonth>
+		<JazzGuestDay>9</JazzGuestDay>
+		<JazzGuestHeader>Jazz Passengers</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Jörg Hauser, Sabine Siegrist, Rougie Rothenbühler, Tico Keller, Hannes Hänggli</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20130309_JazzPassengers.png</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>41</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2013</JazzGuestYear>
+		<JazzGuestMonth>12</JazzGuestMonth>
+		<JazzGuestDay>14</JazzGuestDay>
+		<JazzGuestHeader>Daccordeon</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Richard Pizzorno, Nick Perrin, Sam Joss, Chris von Hoffmann</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20131214_Daccordeon.png</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>42</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2015</JazzGuestYear>
+		<JazzGuestMonth>10</JazzGuestMonth>
+		<JazzGuestDay>31</JazzGuestDay>
+		<JazzGuestHeader>Claude Diallo Situation</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Eva Eder</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20151031_EvaEder.png</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>43</JazzGuestRegNumber>
+	</JazzGuest>
+	
+	<!--
+	<JazzGuest>
+		<JazzGuestYear>2015</JazzGuestYear>
+		<JazzGuestMonth9</JazzGuestMonth>
+		<JazzGuestDay>19</JazzGuestDay>
+		<JazzGuestHeader>Jubiläum 15 Jahre</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Georges Weiersmüller</JazzGuestNames>
+		<JazzGuestRemark>19.09.2015 </JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20150919_Jubilaeum15GeorgesWeiersmueller.png</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2018</JazzGuestYear>
+		<JazzGuestMonth>11</JazzGuestMonth>
+		<JazzGuestDay>3</JazzGuestDay>
+		<JazzGuestHeader>Marc Hunziker Trio</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>Flügeltransport</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/d20181103_Marc_Hunziker_FluegelTransport.mp4</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+	</JazzGuest>
+		
+		
+	
+	<JazzGuest>
+		<JazzGuestYear>NotYetSetNodeValue</JazzGuestYear>
+		<JazzGuestMonth>NotYetSetNodeValue</JazzGuestMonth>
+		<JazzGuestDay>NotYetSetNodeValue</JazzGuestDay>
+		<JazzGuestHeader>NotYetSetNodeValue</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>NotYetSetNodeValue</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>NotYetSetNodeValue</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+	</JazzGuest>
+	-->
+
+</HomepageJazzGuests>	

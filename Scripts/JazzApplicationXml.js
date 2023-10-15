@@ -1,13 +1,11 @@
 // File: JazzApplicationXml.js
-// Date: 2023-05-18
+// Date: 2023-10-14
 // Author: Gunnar Lidén
 
 // File content
 // =============
 //
 // Class for the application XML file JazzApplication.xml
-
-// Class for the retrieval of season data 
 class JazzApplicationXml
 {
     // Creates the instance of the class

@@ -1,5 +1,5 @@
 // File: Main.js
-// Date: 2023-05-18
+// Date: 2023-10-15
 // Author: Gunnar Lidén
 
 // Inhalt
@@ -15,6 +15,9 @@
 
 // Application XML object
 var g_application_xml = null;
+
+// Jazz guests XML object
+var g_jazz_guests_xml = null;
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////// End Global Parameters ///////////////////////////////////////////
@@ -48,10 +51,49 @@ function callbackApplicationXml()
 
     var application_el = getDivElementApplicationResults();
 
-    application_el.innerHTML = 'n_members= ' + n_members.toString() + '<br>' +
-                               'n_it_team_members= ' + n_it_team_members.toString();
+    application_el.innerHTML = 'Application XML results:' + '<br>' +
+    'n_members= ' + n_members.toString() + '<br>' +
+                               'n_it_team_members= ' + n_it_team_members.toString() + '<br>';
+
+    var n_level_xml = 1;
+    
+    g_jazz_guests_xml = new JazzGuestsXml(callbackGuestsXml, n_level_xml); 
 
 } // callbackApplicationXml
+
+// Callback function after the creation of the guests XML object
+function callbackGuestsXml()
+{
+    var n_records = g_jazz_guests_xml.getNumberOfGuestRecords();
+
+    var record_number = 4;
+
+    var record_header = g_jazz_guests_xml.getGuestHeader(record_number);
+
+    var record_names = g_jazz_guests_xml.getGuestNames(record_number);
+
+    var record_file_type = g_jazz_guests_xml.getGuestFileType(record_number);
+
+    var record_reg_number = g_jazz_guests_xml.getGuestRegNumber(record_number);
+
+    var img_record_numbers = g_jazz_guests_xml.getRecordsImageArray();
+
+    var n_img_records = img_record_numbers.length;
+
+    var guests_el = getDivElementGuestsResults();
+
+    var result_str = '<br>' +'Jazz guests XML results:' + '<br>' +
+    "Number of guest records: " + n_records.toString() +  '<br>' +
+    "Record number " + record_number.toString() +  '<br>' +
+    "Record header '" + record_header + "'" +  '<br>' +
+    "Record names '" + record_names + "'" +  '<br>' + 
+    "Record file type '" + record_file_type + "'" +  '<br>' + 
+    "Registration number " + record_reg_number.toString() +  '<br>' + 
+    "Number of published IMG records " + n_img_records.toString() +  '<br>';
+
+    guests_el.innerHTML = result_str;
+
+} // callbackGuestsXml
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////// End Main Functions //////////////////////////////////////////////
@@ -61,19 +103,33 @@ function callbackApplicationXml()
 ///////////////////////// Start Get Id And Element Functions //////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-// Returns the element test control two <div> element
+// Returns the element application XML <div> element
 function getDivElementApplicationResults()
 {
     return document.getElementById(getIdDivElementApplicationResults());
 
 } // getDivElementApplicationResults
 
-//Returns the identity of the test control two <div> element
+//Returns the identity of the application XML <div> element
 function getIdDivElementApplicationResults()
 {
     return 'id_div_application_xml_results';
 
 } // getIdDivElementApplicationResults
+
+// Returns the element guests XML <div> element
+function getDivElementGuestsResults()
+{
+    return document.getElementById(getIdDivElementGuestsResults());
+
+} // getDivElementGuestsResults
+
+//Returns the identity of the guests XML <div> element
+function getIdDivElementGuestsResults()
+{
+    return 'id_div_jazz_guests_xml_results';
+
+} // getIdDivElementGuestsResults
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////// End Get Id And Element Functions ////////////////////////////////
@@ -84,7 +140,7 @@ function getIdDivElementApplicationResults()
 // /www/JazzScripts/. The directory name is defined in file MergeLoginLogout.php.
 function eventMergeFiles()
 {
-    var file_name = 'Xml_20230518.js';
+    var file_name = 'Xml_20231015.js';
 
     $.post
       ('PhpMerge/MergeXml.php',

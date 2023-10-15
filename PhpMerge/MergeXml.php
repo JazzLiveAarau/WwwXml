@@ -39,6 +39,7 @@ $file_name = $_POST['file_name'];
 
 $file_content = file_get_contents('../Scripts/JazzApplicationXml.js');
 $file_content .= "\n" . file_get_contents('../Scripts/JazzGuestsXml.js');
+$file_content .= "\n" . file_get_contents('../Scripts/PrettyPrintXml.js');
 
 $dir_name= '../../JazzScripts/';
 

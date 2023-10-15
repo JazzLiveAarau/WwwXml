@@ -68,6 +68,10 @@ function callbackGuestsXml()
 
     var record_number = 4;
 
+    var test_year = "2025";
+
+    g_jazz_guests_xml.setGuestYear(record_number, test_year)
+
     var record_header = g_jazz_guests_xml.getGuestHeader(record_number);
 
     var record_names = g_jazz_guests_xml.getGuestNames(record_number);
@@ -92,6 +96,18 @@ function callbackGuestsXml()
     "Number of published IMG records " + n_img_records.toString() +  '<br>';
 
     guests_el.innerHTML = result_str;
+
+    g_jazz_guests_xml.appendGuestNode();
+
+    g_jazz_guests_xml.initAppendedForImg();
+
+    var pretty_print_xml = new PrettyPrintXml(g_jazz_guests_xml.getXmlObject());
+
+    var xml_win_str = pretty_print_xml.xmlToWinFormattedString();
+
+    var el_pretty_print =  getDivElementPrettyPrint();
+
+    //el_pretty_print.innerHTML = xml_win_str;
 
 } // callbackGuestsXml
 
@@ -130,6 +146,20 @@ function getIdDivElementGuestsResults()
     return 'id_div_jazz_guests_xml_results';
 
 } // getIdDivElementGuestsResults
+
+// Returns the element pretty print <div> element
+function getDivElementPrettyPrint()
+{
+    return document.getElementById(getIdDivElementPrettyPrint());
+
+} // getDivElementPrettyPrint
+
+//Returns the identity of the pretty print XML <div> element
+function getIdDivElementPrettyPrint()
+{
+    return 'id_div_pretty_print_xml';
+
+} // getIdDivElementPrettyPrint 
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////// End Get Id And Element Functions ////////////////////////////////

@@ -1,5 +1,5 @@
 // File: JazzGuestsXml.js
-// Date: 2023-10-14
+// Date: 2023-10-15
 // Author: Gunnar Lidén
 
 // File content
@@ -54,7 +54,7 @@ class JazzGuestsXml
     } // getXmlObject    
 
     ///////////////////////////////////////////////////////////////////////////
-    ///////////////////////// Start Member Data ///////////////////////////////
+    ///////////////////////// Start Get Guest Data ////////////////////////////
     ///////////////////////////////////////////////////////////////////////////
 
     // Returns the guest record year
@@ -134,27 +134,340 @@ class JazzGuestsXml
         
     } // getGuestEmail
 
-    // Returns the guest record publish flag
+    // Returns the guest record publish flag as string
     getGuestPublish(i_record_number)
     {
         return this.getGuestNodeValue(this.m_tags.getGuestPublish(), i_record_number);
         
     } // getGuestPublish
 
-    // Returns the guest record registration
+    // Returns the guest record publish flag as boolean
+    getGuestPublishBool(i_record_number)
+    {
+        var flag_str = this.getGuestPublish(i_record_number);
+
+        if ("TRUE" == flag_str)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+        
+    } // getGuestPublishBool
+
+    // Returns the guest record registration as string
     getGuestRegNumber(i_record_number)
     {
         return this.getGuestNodeValue(this.m_tags.getGuestRegNumber(), i_record_number);
         
     } // getGuestRegNumber
 
+    // Returns the guest record registration as integer
+    getGuestRegNumberInt(i_record_number)
+    {
+        var node_value_str = this.getGuestRegNumber(i_record_number);
+
+        return parseInt(node_value_str);
+        
+    } // getGuestRegNumberInt
+
     ///////////////////////////////////////////////////////////////////////////
-    ///////////////////////// End Member Data /////////////////////////////////
+    ///////////////////////// End Get Guest Data //////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////////////////
+    ///////////////////////// Start Set Guest Data ////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+
+    // Sets the guest record year
+    setGuestYear(i_record_number, i_node_value)
+    {
+        return this.setGuestNodeValue(this.m_tags.getGuestYear(), i_record_number, i_node_value);
+        
+    } // setGuestYear
+
+
+    // Sets the guest record month
+    setGuestMonth(i_record_number, i_node_value)
+    {
+        return this.setGuestNodeValue(this.m_tags.getGuestMonth(), i_record_number, i_node_value);
+        
+    } // setGuestMonth
+
+    // Sets the guest record day
+    setGuestDay(i_record_number, i_node_value)
+    {
+        return this.setGuestNodeValue(this.m_tags.getGuestDay(), i_record_number, i_node_value);
+        
+    } // setGuestDay
+
+    // Sets the guest record header
+    setGuestHeader(i_record_number, i_node_value)
+    {
+        return this.setGuestNodeValue(this.m_tags.getGuestHeader(), i_record_number, i_node_value);
+        
+    } // setGuestHeader
+
+    // Sets the guest record text
+    setGuestText(i_record_number, i_node_value)
+    {
+        return this.setGuestNodeValue(this.m_tags.getGuestText(), i_record_number, i_node_value);
+        
+    } // setGuestText
+
+    // Sets the guest record names
+    setGuestNames(i_record_number, i_node_value)
+    {
+        return this.setGuestNodeValue(this.m_tags.getGuestNames(), i_record_number, i_node_value);
+        
+    } // setGuestNames
+
+    // Sets the guest record remark
+    setGuestRemark(i_record_number, i_node_value)
+    {
+        return this.setGuestNodeValue(this.m_tags.getGuestRemark(), i_record_number, i_node_value);
+        
+    } // setGuestRemark
+
+    // Sets the guest record file name
+    setGuestFileName(i_record_number, i_node_value)
+    {
+        return this.setGuestNodeValue(this.m_tags.getGuestFileName(), i_record_number, i_node_value);
+        
+    } // setGuestFileName
+
+   // Sets the guest record file type
+   setGuestFileType(i_record_number, i_node_value)
+   {
+       return this.setGuestNodeValue(this.m_tags.getGuestFileType(), i_record_number, i_node_value);
+       
+   } // setGuestFileType
+
+   // Sets the guest record avatar
+   setGuestAvatar(i_record_number, i_node_value)
+   {
+       return this.setGuestNodeValue(this.m_tags.getGuestAvatar(), i_record_number, i_node_value);
+       
+   } // setGuestAvatar
+
+   // Sets the guest record email
+   setGuestEmail(i_record_number, i_node_value)
+   {
+       return this.setGuestNodeValue(this.m_tags.getGuestEmail(), i_record_number, i_node_value);
+       
+   } // setGuestEmail
+
+   // Sets the guest record publish flag as string
+   setGuestPublish(i_record_number, i_node_value)
+   {
+       return this.setGuestNodeValue(this.m_tags.getGuestPublish(), i_record_number, i_node_value);
+       
+   } // setGuestPublish
+
+   // Sets the guest record publish flag as string
+   setGuestPublishBool(i_record_number, i_node_value_boolean)
+   {
+      if (i_node_value_boolean)
+      {
+          this.setGuestPublish(i_record_number, "TRUE");
+      }
+      else
+      {
+          this.setGuestPublish(i_record_number, "FALSE");
+      }
+       
+   } // setGuestPublishBool
+
+   // Sets the guest record registration number as string
+   setGuestRegNumber(i_record_number, i_node_value)
+   {
+       return this.setGuestNodeValue(this.m_tags.getGuestRegNumber(), i_record_number, i_node_value);
+       
+   } // setGuestRegNumber
+
+   // Sets the guest record registration number as int
+   setGuestRegNumberInt(i_record_number, i_node_value_int)
+   {
+       var node_value_str = i_node_value_int.toString();
+
+       return this.setGuestRegNumber(i_record_number, node_value_str);
+       
+   } // setGuestRegNumberInt
+
+    ///////////////////////////////////////////////////////////////////////////
+    ///////////////////////// End Set Guest Data //////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+
+	///////////////////////////////////////////////////////////////////////////
+	///////////////////////// Start Append Guest Node  ////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+
+	// https://www.webdeveloper.com/forum/d/231973-append-xml-node-in-javascript/3
+
+	// Appends a guest node   
+    appendGuestNode()
+    {
+        var new_guest = this.getXmlObject().createElement(this.m_tags.getGuest());
+
+        var year_node = this.getXmlObject().createElement(this.m_tags.getGuestYear());
+        var year_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        year_node.appendChild(year_text);
+        new_guest.appendChild(year_node);
+
+        var month_node = this.getXmlObject().createElement(this.m_tags.getGuestMonth());
+        var month_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        month_node.appendChild(month_text);
+        new_guest.appendChild(month_node);
+
+        var day_node = this.getXmlObject().createElement(this.m_tags.getGuestDay());
+        var day_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        day_node.appendChild(day_text);
+        new_guest.appendChild(day_node);
+
+        var header_node = this.getXmlObject().createElement(this.m_tags.getGuestHeader());
+        var header_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        header_node.appendChild(header_text);
+        new_guest.appendChild(header_node);
+
+        var text_node = this.getXmlObject().createElement(this.m_tags.getGuestText());
+        var text_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        text_node.appendChild(text_text);
+        new_guest.appendChild(text_node);
+
+        var names_node = this.getXmlObject().createElement(this.m_tags.getGuestNames());
+        var names_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        names_node.appendChild(names_text);
+        new_guest.appendChild(names_node);
+
+        var remark_node = this.getXmlObject().createElement(this.m_tags.getGuestRemark());
+        var remark_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        remark_node.appendChild(remark_text);
+        new_guest.appendChild(remark_node);
+
+        var file_name_node = this.getXmlObject().createElement(this.m_tags.getGuestFileName());
+        var file_name_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        file_name_node.appendChild(file_name_text);
+        new_guest.appendChild(file_name_node);
+
+        var file_type_node = this.getXmlObject().createElement(this.m_tags.getGuestFileType());
+        var file_type_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        file_type_node.appendChild(file_type_text);
+        new_guest.appendChild(file_type_node);
+
+        var avatar_node = this.getXmlObject().createElement(this.m_tags.getGuestAvatar());
+        var avatar_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        avatar_node.appendChild(avatar_text);
+        new_guest.appendChild(avatar_node);
+
+        var email_node = this.getXmlObject().createElement(this.m_tags.getGuestEmail());
+        var email_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        email_node.appendChild(email_text);
+        new_guest.appendChild(email_node);
+
+        var publish_node = this.getXmlObject().createElement(this.m_tags.getGuestPublish());
+        var publish_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        publish_node.appendChild(publish_text);
+        new_guest.appendChild(publish_node);
+
+        var reg_number_node = this.getXmlObject().createElement(this.m_tags.getGuestRegNumber());
+        var reg_number_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        reg_number_node.appendChild(reg_number_text);
+        new_guest.appendChild(reg_number_node);
+
+        this.getXmlObject().documentElement.appendChild(new_guest);	
+
+    } // appendGuestNode
+	   
+	///////////////////////////////////////////////////////////////////////////
+	///////////////////////// End Append Guest Node  //////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+
+	///////////////////////////////////////////////////////////////////////////
+	///////////////////////// Start Delete Guest Node  ////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+
+	// Deletes a guest node   
+    deleteGuestNode(i_record_number)
+    {
+        if (!this.checkJazzGuestsXml()){ return false; }
+
+        var n_records = this.getNumberOfGuestRecords();
+        
+        if (i_record_number < 1 || i_record_number > n_records)
+        {
+            alert("JazzGuestsXml.deleteGuestNode Record number is not between 1 and " + n_records.toString());
+            return false;		
+        }
+
+        var guest_rec_nodes = this.getXmlObject().getElementsByTagName(this.m_tags.getGuest());
+
+        var guest_rec_node = guest_rec_nodes[i_record_number-1];
+
+        guest_rec_node.parentNode.removeChild(guest_rec_node);
+
+    } // deleteGuestNode
+
+	///////////////////////////////////////////////////////////////////////////
+	///////////////////////// End Delete Guest Node  //////////////////////////
     ///////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////
     ///////////////////////// Start Utility Functions /////////////////////////
     ///////////////////////////////////////////////////////////////////////////
+
+    // Initialize the last (appended) gust node for a file of type IMG
+    initAppendedForImg()
+    {
+        var n_records = this.getNumberOfGuestRecords();
+
+        var current_date = new Date();
+        var current_year = current_date.getFullYear();
+        var current_month = current_date.getMonth() + 1;
+        var current_day = current_date.getDate();
+
+        this.setGuestYear(n_records, current_year.toString());
+
+        this.setGuestMonth(n_records, current_month.toString());
+
+        this.setGuestDay(n_records, current_day.toString());
+
+        this.setGuestFileType(n_records, "IMG");
+
+        this.setGuestPublishBool(n_records, false);
+
+        this.setGuestRegNumberInt(n_records, this.getNextRegNumberInt());
+
+    } // initAppendedForImg
+
+    getNextRegNumberInt()
+    {
+        var n_records = this.getNumberOfGuestRecords();
+
+        var max_record_number = -1;
+
+        for (var record_number=1; record_number <= n_records; record_number++)
+        {
+            var reg_number_str = this.getGuestRegNumber(record_number);
+
+            if (reg_number_str.length > 1) // Only last one may not be set
+            {
+                var reg_number_int = this.getGuestRegNumberInt(record_number);
+
+                if (reg_number_int > max_record_number)
+                {
+                    max_record_number = reg_number_int;
+                }
+
+            } // defined
+        } // record_number
+
+        var ret_number_int = max_record_number + 1;
+
+        return ret_number_int;
+
+    } // getNextRegNumberInt
 
     // Get an array of record numbers with file type IMG that can be published
     getRecordsImageArray()
@@ -295,6 +608,30 @@ class JazzGuestsXml
         
     } // getGuestNodeValue
 
+    // Sets the guest node value for a given guest record number and a tag name
+    setGuestNodeValue(i_record_tag, i_record_number, i_guest_record_node_value)
+    {	
+        if (!this.checkJazzGuestsXml()){ return; }
+
+        var n_records = this.getNumberOfGuestRecords();
+        
+        if (i_record_number < 1 || i_record_number > n_records)
+        {
+            alert("JazzGuestsXml.setJazzTaskNodeValue Record number is not between 1 and " + n_records.toString());
+            
+            return;		
+        }
+            
+        var guest_rec_nodes = this.getXmlObject().getElementsByTagName(this.m_tags.getGuest());
+
+        var guest_rec_node = guest_rec_nodes[i_record_number-1];
+        
+        var node_value = this.setFlagNodeValueIsNotSetForEmptyString(i_guest_record_node_value);
+        
+        this.setNodeValue(guest_rec_node, i_record_tag, node_value);
+        
+    } // setGuestNodeValue
+
     ///////////////////////////////////////////////////////////////////////////
     ///////////////////////// End Record Node Value  //////////////////////////
     ///////////////////////////////////////////////////////////////////////////  
@@ -316,6 +653,13 @@ class JazzGuestsXml
         return i_node.childNodes[0].nodeValue;
         
     } // getNodeValue
+
+    // Sets a node value. Input is an XML node, the tag name and the node value
+    setNodeValue(i_node, i_xml_tag, i_node_value)
+    {	
+        i_node.getElementsByTagName(i_xml_tag)[0].childNodes[0].nodeValue = i_node_value;
+        
+    } // setNodeValue
 
     ///////////////////////////////////////////////////////////////////////////
     ///////////////////////// End XML Node Values  ////////////////////////////

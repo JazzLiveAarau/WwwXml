@@ -1,5 +1,5 @@
 // File: JazzGuestsXml.js
-// Date: 2023-10-15
+// Date: 2023-10-16
 // Author: Gunnar Lidén
 
 // File content
@@ -841,7 +841,7 @@ class JazzGuestsTags
 
     getGuest(){return this.m_tag_guest;} 
     getGuestYear(){return this.m_tag_guest_year;} 
-    getGuestMonth(){return this.JazzGuestMonth;} 
+    getGuestMonth(){return this.m_tag_guest_month;} 
     getGuestDay(){return this.m_tag_guest_day;} 
     getGuestHeader(){return this.m_tag_guest_header;} 
     getGuestText(){return this.m_tag_guest_text;} 

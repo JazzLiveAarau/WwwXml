@@ -1,5 +1,5 @@
 // File: Main.js
-// Date: 2023-10-15
+// Date: 2023-12-06
 // Author: Gunnar Lidén
 
 // Inhalt
@@ -76,13 +76,31 @@ function callbackGuestsXml()
 
     var record_names = g_jazz_guests_xml.getGuestNames(record_number);
 
+    var record_band = g_jazz_guests_xml.getGuestBand(record_number);
+
+    var record_musicians = g_jazz_guests_xml.getGuestMusicians(record_number);
+
     var record_file_type = g_jazz_guests_xml.getGuestFileType(record_number);
+
+    var record_telephone = g_jazz_guests_xml.getGuestTelephone(record_number);
+
+    var record_status = g_jazz_guests_xml.getGuestStatus(record_number);
 
     var record_reg_number = g_jazz_guests_xml.getGuestRegNumber(record_number);
 
     var img_record_numbers = g_jazz_guests_xml.getRecordsImageArray();
 
     var n_img_records = img_record_numbers.length;
+
+    var jazz_guest_search_object = new JazzGuestSearch(g_jazz_guests_xml);
+
+    jazz_guest_search_object.setIncludeMusicians(true);
+
+    var search_array = [];
+    search_array[0] = 'Laura Cesar';
+    search_array[1] = 'Tobias Friedli';
+
+    var photo_data_list = jazz_guest_search_object.executeArray(search_array);
 
     var guests_el = getDivElementGuestsResults();
 
@@ -91,9 +109,14 @@ function callbackGuestsXml()
     "Record number " + record_number.toString() +  '<br>' +
     "Record header '" + record_header + "'" +  '<br>' +
     "Record names '" + record_names + "'" +  '<br>' + 
+    "Record band '" + record_band + "'" +  '<br>' + 
+    "Record musicians '" + record_musicians + "'" +  '<br>' + 
     "Record file type '" + record_file_type + "'" +  '<br>' + 
+    //"Record telephone '" + record_telephone + "'" +  '<br>' + 
+    //"Record status '" + record_status + "'" +  '<br>' + 
     "Registration number " + record_reg_number.toString() +  '<br>' + 
-    "Number of published IMG records " + n_img_records.toString() +  '<br>';
+    "Number of published IMG records " + n_img_records.toString() +  '<br>' +
+    "Number of guest images " + photo_data_list.getNumberOfPhotos().toString() +  '<br>';
 
     guests_el.innerHTML = result_str;
 
@@ -170,7 +193,7 @@ function getIdDivElementPrettyPrint()
 // /www/JazzScripts/. The directory name is defined in file MergeLoginLogout.php.
 function eventMergeFiles()
 {
-    var file_name = 'Xml_20231015.js';
+    var file_name = 'Xml_20231206.js';
 
     $.post
       ('PhpMerge/MergeXml.php',

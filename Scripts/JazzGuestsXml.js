@@ -1,5 +1,5 @@
 // File: JazzGuestsXml.js
-// Date: 2023-10-16
+// Date: 2023-12-06
 // Author: Gunnar Lidén
 
 // File content
@@ -78,6 +78,20 @@ class JazzGuestsXml
         
     } // getGuestDay
 
+    // Returns the guest record band
+    getGuestBand(i_record_number)
+    {
+        return this.getGuestNodeValue(this.m_tags.getGuestBand(), i_record_number);
+        
+    } // getGuestBand
+
+    // Returns the guest record musicians
+    getGuestMusicians(i_record_number)
+    {
+        return this.getGuestNodeValue(this.m_tags.getGuestMusicians(), i_record_number);
+        
+    } // getGuestMusicians
+
     // Returns the guest record header
     getGuestHeader(i_record_number)
     {
@@ -133,6 +147,20 @@ class JazzGuestsXml
         return this.getGuestNodeValue(this.m_tags.getGuestEmail(), i_record_number);
         
     } // getGuestEmail
+
+    // Returns the guest record telephone
+    getGuestTelephone(i_record_number)
+    {
+        return this.getGuestNodeValue(this.m_tags.getGuestTelephone(), i_record_number);
+        
+    } // getGuestTelephone
+
+    // Returns the guest record status
+    getGuestStatus(i_record_number)
+    {
+        return this.getGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number);
+        
+    } // getGuestStatus
 
     // Returns the guest record publish flag as string
     getGuestPublish(i_record_number)
@@ -203,6 +231,20 @@ class JazzGuestsXml
         
     } // setGuestDay
 
+    // Sets the guest record band
+    setGuestBand(i_record_number, i_node_value)
+    {
+        return this.setGuestNodeValue(this.m_tags.getGuestBand(), i_record_number, i_node_value);
+        
+    } // setGuestBand
+
+    // Sets the guest record musicians
+    setGuestMusicians(i_record_number, i_node_value)
+    {
+        return this.setGuestNodeValue(this.m_tags.getGuestMusicians(), i_record_number, i_node_value);
+        
+    } // setGuestMusicians
+
     // Sets the guest record header
     setGuestHeader(i_record_number, i_node_value)
     {
@@ -258,6 +300,20 @@ class JazzGuestsXml
        return this.setGuestNodeValue(this.m_tags.getGuestEmail(), i_record_number, i_node_value);
        
    } // setGuestEmail
+
+   // Sets the guest record telephone
+   setGuestTelephone(i_record_number, i_node_value)
+   {
+        return this.setGuestNodeValue(this.m_tags.getGuestTelephone(), i_record_number, i_node_value);
+        
+   } // setGuestTelephone   
+
+   // Sets the guest record status
+   setGuestStatus(i_record_number, i_node_value)
+   {
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, i_node_value);
+        
+   } // setGuestStatus  
 
    // Sets the guest record publish flag as string
    setGuestPublish(i_record_number, i_node_value)
@@ -326,6 +382,16 @@ class JazzGuestsXml
         day_node.appendChild(day_text);
         new_guest.appendChild(day_node);
 
+        var band_node = this.getXmlObject().createElement(this.m_tags.getGuestBand());
+        var band_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        day_node.appendChild(band_text);
+        new_guest.appendChild(band_node);
+
+        var musicians_node = this.getXmlObject().createElement(this.m_tags.getGuestMusicians());
+        var musicians_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        day_node.appendChild(musicians_text);
+        new_guest.appendChild(musicians_node);
+
         var header_node = this.getXmlObject().createElement(this.m_tags.getGuestHeader());
         var header_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
         header_node.appendChild(header_text);
@@ -365,6 +431,16 @@ class JazzGuestsXml
         var email_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
         email_node.appendChild(email_text);
         new_guest.appendChild(email_node);
+
+        var telephone_node = this.getXmlObject().createElement(this.m_tags.getGuestTelephone());
+        var telephone_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        day_node.appendChild(telephone_text);
+        new_guest.appendChild(telephone_node);
+
+        var status_node = this.getXmlObject().createElement(this.m_tags.getGuestStatus());
+        var status_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
+        day_node.appendChild(status_text);
+        new_guest.appendChild(status_node);
 
         var publish_node = this.getXmlObject().createElement(this.m_tags.getGuestPublish());
         var publish_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
@@ -823,6 +899,8 @@ class JazzGuestsTags
         this.m_tag_guest_year = "JazzGuestYear";
         this.m_tag_guest_month = "JazzGuestMonth";
         this.m_tag_guest_day = "JazzGuestDay";
+        this.m_tag_guest_band = "JazzGuestBand";
+        this.m_tag_guest_musicians = "JazzGuestMusicians";
         this.m_tag_guest_header = "JazzGuestHeader";
         this.m_tag_guest_text = "JazzGuestText";
         this.m_tag_guest_names = "JazzGuestNames";
@@ -831,6 +909,8 @@ class JazzGuestsTags
         this.m_tag_guest_file_type = "JazzGuestFileType";
         this.m_tag_guest_avatar = "JazzGuestAvatar";
         this.m_tag_guest_email = "JazzGuestEmail";
+        this.m_tag_guest_telephone = "JazzGuestTelephone";
+        this.m_tag_guest_status = "JazzGuestStatus";
         this.m_tag_guest_publish = "JazzGuestPublish";
         this.m_tag_guest_number = "JazzGuestRegNumber";
 
@@ -843,6 +923,8 @@ class JazzGuestsTags
     getGuestYear(){return this.m_tag_guest_year;} 
     getGuestMonth(){return this.m_tag_guest_month;} 
     getGuestDay(){return this.m_tag_guest_day;} 
+    getGuestBand(){return this.m_tag_guest_band;} 
+    getGuestMusicians(){return this.m_tag_guest_musicians;} 
     getGuestHeader(){return this.m_tag_guest_header;} 
     getGuestText(){return this.m_tag_guest_text;} 
     getGuestNames(){return this.m_tag_guest_names;} 
@@ -851,6 +933,8 @@ class JazzGuestsTags
     getGuestFileType(){return this.m_tag_guest_file_type;}
     getGuestAvatar(){return this.m_tag_guest_avatar;}
     getGuestEmail(){return this.m_tag_guest_email;}
+    getGuestTelephone(){return this.m_tag_guest_telephone;} 
+    getGuestStatus(){return this.m_tag_guest_status;}
     getGuestPublish(){return this.m_tag_guest_publish;}
     getGuestRegNumber(){return this.m_tag_guest_number;}
 

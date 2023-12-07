@@ -6,6 +6,8 @@
 		<JazzGuestYear>2006</JazzGuestYear>
 		<JazzGuestMonth>2</JazzGuestMonth>
 		<JazzGuestDay>18</JazzGuestDay>
+		<JazzGuestBand>Stewy von Wattenwyl Trio</JazzGuestBand>
+		<JazzGuestMusicians>Stewy von Wattenwyl, Daniel Schläppi, Tobias Friedli</JazzGuestMusicians>
 		<JazzGuestHeader>Stewy von Wattenwyl Trio</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Gianin Flucher</JazzGuestNames>
@@ -14,6 +16,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>1</JazzGuestRegNumber>
 	</JazzGuest>
@@ -21,6 +25,8 @@
 		<JazzGuestYear>2006</JazzGuestYear>
 		<JazzGuestMonth>11</JazzGuestMonth>
 		<JazzGuestDay>25</JazzGuestDay>
+		<JazzGuestBand>Peter Schärli Trio featuring Ithamara Koorax</JazzGuestBand>
+		<JazzGuestMusicians>Peter Schärli, Ithamara Koorax, Markus Stalder, Thomas Dürst</JazzGuestMusicians>
 		<JazzGuestHeader>Peter Schärli Trio featuring Ithamara Koorax</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Peter Schärli, Ithamara Koorax, Markus Stalder, Thomas Dürst</JazzGuestNames>
@@ -29,6 +35,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>2</JazzGuestRegNumber>
 	</JazzGuest>
@@ -36,6 +44,8 @@
 		<JazzGuestYear>2006</JazzGuestYear>
 		<JazzGuestMonth>12</JazzGuestMonth>
 		<JazzGuestDay>9</JazzGuestDay>
+		<JazzGuestBand>Erich Gandet Quintet</JazzGuestBand>
+		<JazzGuestMusicians>Erich Gandet, Bruno Gandet, Rougie Rothenbühler, Tico Keller, Hannes Hänggli</JazzGuestMusicians>
 		<JazzGuestHeader>Erich Gandet Quintet</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Erich Gandet, Bruno Gandet, Rougie Rothenbühler, Tico Keller, Hannes Hänggli</JazzGuestNames>
@@ -44,6 +54,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>3</JazzGuestRegNumber>
 	</JazzGuest>
@@ -51,6 +63,8 @@
 		<JazzGuestYear>2007</JazzGuestYear>
 		<JazzGuestMonth>1</JazzGuestMonth>
 		<JazzGuestDay>27</JazzGuestDay>
+		<JazzGuestBand>Urban Spaces Quartet</JazzGuestBand>
+		<JazzGuestMusicians>Francis Petter, Edgar Marc Petter, Peter Hunziker, Bruno Huwyler</JazzGuestMusicians>
 		<JazzGuestHeader>Urban Spaces Quartet</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Francis Petter, Edgar Marc Petter, Peter Hunziker, Bruno Huwyler</JazzGuestNames>
@@ -59,6 +73,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>4</JazzGuestRegNumber>
 	</JazzGuest>
@@ -66,6 +82,8 @@
 		<JazzGuestYear>2007</JazzGuestYear>
 		<JazzGuestMonth>2</JazzGuestMonth>
 		<JazzGuestDay>10</JazzGuestDay>
+		<JazzGuestBand>Voice it</JazzGuestBand>
+		<JazzGuestMusicians>Lisette Spinnler, Roland Köppel, Andreas Schnyder, Jean-Pierre Schaller</JazzGuestMusicians>
 		<JazzGuestHeader>Voice it</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Lisette Spinnler</JazzGuestNames>
@@ -74,6 +92,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>5</JazzGuestRegNumber>
 	</JazzGuest>
@@ -81,6 +101,8 @@
 		<JazzGuestYear>2007</JazzGuestYear>
 		<JazzGuestMonth>2</JazzGuestMonth>
 		<JazzGuestDay>24</JazzGuestDay>
+		<JazzGuestBand>Mark Koch Trio</JazzGuestBand>
+		<JazzGuestMusicians>Mark Koch, Sam Joss, Peter Fischer</JazzGuestMusicians>
 		<JazzGuestHeader>Mark Koch Trio</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Mark Koch, Sam Joss, Peter Fischer</JazzGuestNames>
@@ -89,6 +111,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>6</JazzGuestRegNumber>
 	</JazzGuest>
@@ -96,6 +120,8 @@
 		<JazzGuestYear>2007</JazzGuestYear>
 		<JazzGuestMonth>3</JazzGuestMonth>
 		<JazzGuestDay>24</JazzGuestDay>
+		<JazzGuestBand>Wheres Africa Quartet</JazzGuestBand>
+		<JazzGuestMusicians>Irène Schweizer, Omri Ziegele, Adrian Mears, Makaya Ntshoko</JazzGuestMusicians>
 		<JazzGuestHeader>Wheres Africa Quartet</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Irène Schweizer, Omri Ziegele, Adrian Mears, Makaya Ntshoko</JazzGuestNames>
@@ -104,6 +130,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>7</JazzGuestRegNumber>
 	</JazzGuest>
@@ -111,6 +139,8 @@
 		<JazzGuestYear>2007</JazzGuestYear>
 		<JazzGuestMonth>10</JazzGuestMonth>
 		<JazzGuestDay>27</JazzGuestDay>
+		<JazzGuestBand>Oli Kuster Kombo</JazzGuestBand>
+		<JazzGuestMusicians>Oli Kuster, Jürg Bucher, Lorenz Beyeler</JazzGuestMusicians>
 		<JazzGuestHeader>Oli Kuster Kombo</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Oli Kuster, Jürg Bucher, Lorenz Beyeler</JazzGuestNames>
@@ -119,6 +149,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>8</JazzGuestRegNumber>
 	</JazzGuest>
@@ -126,6 +158,8 @@
 		<JazzGuestYear>2007</JazzGuestYear>
 		<JazzGuestMonth>11</JazzGuestMonth>
 		<JazzGuestDay>10</JazzGuestDay>
+		<JazzGuestBand>Erich Fischer Quintett</JazzGuestBand>
+		<JazzGuestMusicians>Joey Oz Fischer, René Mosele, Vasko Atanasovski, Claudio Strebel, Benno Kaiser</JazzGuestMusicians>
 		<JazzGuestHeader>Erich Fischer Quintett</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Joey Oz Fischer, René Mosele, Vasko Atanasovski, Claudio Strebel, Benno Kaiser</JazzGuestNames>
@@ -134,6 +168,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>9</JazzGuestRegNumber>
 	</JazzGuest>
@@ -141,6 +177,8 @@
 		<JazzGuestYear>2007</JazzGuestYear>
 		<JazzGuestMonth>11</JazzGuestMonth>
 		<JazzGuestDay>24</JazzGuestDay>
+		<JazzGuestBand>Michael Hammer Trio</JazzGuestBand>
+		<JazzGuestMusicians>Floriano Inaco Junior, Andreas Aeberhard, Michael Hammer</JazzGuestMusicians>
 		<JazzGuestHeader>Michael Hammer Trio</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Floriano Inaco Junior, Andreas Aeberhard, Michael Hammer</JazzGuestNames>
@@ -149,6 +187,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>10</JazzGuestRegNumber>
 	</JazzGuest>
@@ -156,6 +196,8 @@
 		<JazzGuestYear>2007</JazzGuestYear>
 		<JazzGuestMonth>12</JazzGuestMonth>
 		<JazzGuestDay>8</JazzGuestDay>
+		<JazzGuestBand>Hornknox</JazzGuestBand>
+		<JazzGuestMusicians>Klaus Widmer, Michael Beck, Michael Zisman, Giorgos Antoniou, Daniel Aebi</JazzGuestMusicians>
 		<JazzGuestHeader>Hornknox</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Klaus Widmer, Michael Beck, Michael Zisman, Giorgos Antoniou, Daniel Aebi</JazzGuestNames>
@@ -164,6 +206,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>11</JazzGuestRegNumber>
 	</JazzGuest>
@@ -171,6 +215,8 @@
 		<JazzGuestYear>2008</JazzGuestYear>
 		<JazzGuestMonth>2</JazzGuestMonth>
 		<JazzGuestDay>9</JazzGuestDay>
+		<JazzGuestBand>Greasy</JazzGuestBand>
+		<JazzGuestMusicians>Roland Köppel, Oliver Keller, Christian Niederer</JazzGuestMusicians>
 		<JazzGuestHeader>Greasy</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Roland Köppel, Oliver Keller, Christian Niederer</JazzGuestNames>
@@ -179,6 +225,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>12</JazzGuestRegNumber>
 	</JazzGuest>
@@ -186,6 +234,8 @@
 		<JazzGuestYear>2008</JazzGuestYear>
 		<JazzGuestMonth>2</JazzGuestMonth>
 		<JazzGuestDay>23</JazzGuestDay>
+		<JazzGuestBand>Stefano Romerio Trio</JazzGuestBand>
+		<JazzGuestMusicians>Alfredo Ferrario, Stefano Romerio, Roberto Piccolo, Massimo Caracca</JazzGuestMusicians>
 		<JazzGuestHeader>Stefano Romerio Trio</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Alfredo Ferrario, Stefano Romerio, Roberto Piccolo, Massimo Caracca</JazzGuestNames>
@@ -194,6 +244,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>13</JazzGuestRegNumber>
 	</JazzGuest>
@@ -201,6 +253,8 @@
 		<JazzGuestYear>2008</JazzGuestYear>
 		<JazzGuestMonth>3</JazzGuestMonth>
 		<JazzGuestDay>8</JazzGuestDay>
+		<JazzGuestBand>Ladybirds</JazzGuestBand>
+		<JazzGuestMusicians>Gina Günthard, Lisette Spinnler, Petra Vogel, Oliver Friedli, Emanuel Schnyder, Michael Stutz</JazzGuestMusicians>
 		<JazzGuestHeader>Ladybirds</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Gina Günthard, Lisette Spinnler, Petra Vogel, Oliver Friedli, Emanuel Schnyder, Michael Stutz</JazzGuestNames>
@@ -209,6 +263,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>14</JazzGuestRegNumber>
 	</JazzGuest>
@@ -216,6 +272,8 @@
 		<JazzGuestYear>2008</JazzGuestYear>
 		<JazzGuestMonth>3</JazzGuestMonth>
 		<JazzGuestDay>29</JazzGuestDay>
+		<JazzGuestBand>Barbara Balzan</JazzGuestBand>
+		<JazzGuestMusicians>Barbara Balzan, Gregor Müller, Attilo Zanchi, Robby Hacaturian</JazzGuestMusicians>
 		<JazzGuestHeader>Barbara Balzan</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Barbara Balzan</JazzGuestNames>
@@ -224,6 +282,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>15</JazzGuestRegNumber>
 	</JazzGuest>
@@ -231,6 +291,8 @@
 		<JazzGuestYear>2008</JazzGuestYear>
 		<JazzGuestMonth>10</JazzGuestMonth>
 		<JazzGuestDay>11</JazzGuestDay>
+		<JazzGuestBand>Die Vier Tenöre</JazzGuestBand>
+		<JazzGuestMusicians>Daniel Bohnenblust, Jan Galega Brönnimann, Roli von Flüe, Klaus Widmer</JazzGuestMusicians>
 		<JazzGuestHeader>Die Vier Tenöre</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Daniel Bohnenblust, Jan Galega Brönnimann, Roli von Flüe, Klaus Widmer</JazzGuestNames>
@@ -239,6 +301,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>16</JazzGuestRegNumber>
 	</JazzGuest>
@@ -246,6 +310,8 @@
 		<JazzGuestYear>2008</JazzGuestYear>
 		<JazzGuestMonth>10</JazzGuestMonth>
 		<JazzGuestDay>25</JazzGuestDay>
+		<JazzGuestBand>The Jazz Workshop</JazzGuestBand>
+		<JazzGuestMusicians>Lalo Conversano, Claudio Chiara, Alberto Buzzi, Danilo Moccia, Carlo Ubaldi, Yuri Gulobev, Verio Debona</JazzGuestMusicians>
 		<JazzGuestHeader>The Jazz Workshop</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Lalo Conversano, Claudio Chiara, Alberto Buzzi, Danilo Moccia, Carlo Ubaldi, Yuri Gulobev, Verio Debona</JazzGuestNames>
@@ -254,6 +320,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>17</JazzGuestRegNumber>
 	</JazzGuest>
@@ -261,6 +329,8 @@
 		<JazzGuestYear>2008</JazzGuestYear>
 		<JazzGuestMonth>10</JazzGuestMonth>
 		<JazzGuestDay>25</JazzGuestDay>
+		<JazzGuestBand>The Jazz Workshop</JazzGuestBand>
+		<JazzGuestMusicians>Lalo Conversano, Claudio Chiara, Alberto Buzzi, Danilo Moccia, Carlo Ubaldi, Yuri Gulobev, Verio Debona</JazzGuestMusicians>
 		<JazzGuestHeader>The Jazz Workshop</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Lalo Conversano, Claudio Chiara, Alberto Buzzi, Danilo Moccia, Carlo Ubaldi, Yuri Gulobev, Verio Debona</JazzGuestNames>
@@ -269,6 +339,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>18</JazzGuestRegNumber>
 	</JazzGuest>
@@ -276,6 +348,8 @@
 		<JazzGuestYear>2008</JazzGuestYear>
 		<JazzGuestMonth>11</JazzGuestMonth>
 		<JazzGuestDay>8</JazzGuestDay>
+		<JazzGuestBand>J.M. Rhythm Four featuring Charito</JazzGuestBand>
+		<JazzGuestMusicians>Charito, Jürg Morgenthaler, Alessandro d'Episcopo, Christoph Sprenger, Pius Baschnagel</JazzGuestMusicians>
 		<JazzGuestHeader>J.M. Rhythm Four featuring Charito</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Charito, Jürg Morgenthaler, Alessandro d'Episcopo, Christoph Sprenger, Pius Baschnagel</JazzGuestNames>
@@ -284,6 +358,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>19</JazzGuestRegNumber>
 	</JazzGuest>
@@ -291,6 +367,8 @@
 		<JazzGuestYear>2008</JazzGuestYear>
 		<JazzGuestMonth>12</JazzGuestMonth>
 		<JazzGuestDay>6</JazzGuestDay>
+		<JazzGuestBand>Four or more Flutes</JazzGuestBand>
+		<JazzGuestMusicians>Charles Davis, Norbert Dehmke, Felix Hodel, Andieh Merk, Stefan Mölkner</JazzGuestMusicians>
 		<JazzGuestHeader>Four or more Flutes</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Charles Davis, Norbert Dehmke, Felix Hodel, Andieh Merk, Stefan Mölkner</JazzGuestNames>
@@ -299,6 +377,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>20</JazzGuestRegNumber>
 	</JazzGuest>
@@ -306,6 +386,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>1</JazzGuestMonth>
 		<JazzGuestDay>17</JazzGuestDay>
+		<JazzGuestBand>Stewy von Wattenwyls WABASH</JazzGuestBand>
+		<JazzGuestMusicians>Stewy von Wattenwyl, Pius Baschnagel, Daniel Woodtli, Alex Hendriksen</JazzGuestMusicians>
 		<JazzGuestHeader>Stewy von Wattenwyls WABASH</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Stewy von Wattenwyl, Pius Baschnagel, Daniel Woodtli, Alex Hendriksen</JazzGuestNames>
@@ -314,6 +396,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>21</JazzGuestRegNumber>
 	</JazzGuest>
@@ -321,6 +405,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>1</JazzGuestMonth>
 		<JazzGuestDay>31</JazzGuestDay>
+		<JazzGuestBand>Francesca Keller Group</JazzGuestBand>
+		<JazzGuestMusicians>Ricardo Regidor, Reimund Gerstner, Samuel Dühsler, Wege Wüthrich</JazzGuestMusicians>
 		<JazzGuestHeader>Francesca Keller Group</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Ricardo Regidor, Reimund Gerstner, Samuel Dühsler, Wege Wüthrich</JazzGuestNames>
@@ -329,6 +415,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>22</JazzGuestRegNumber>
 	</JazzGuest>
@@ -336,14 +424,18 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>2</JazzGuestMonth>
 		<JazzGuestDay>14</JazzGuestDay>
+		<JazzGuestBand>DKgramm plays Horace Silver</JazzGuestBand>
+		<JazzGuestMusicians>Doris Mätzler, Károly Gáspár, Dietmar Kirchner, Klaus Raidt</JazzGuestMusicians>
 		<JazzGuestHeader>DKgramm plays Horace Silver</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
-		<JazzGuestNames>Doris Mätzler, Károly Gáspár, Dietmar Kirchner, Klaus Raidt </JazzGuestNames>
+		<JazzGuestNames>Doris Mätzler, Károly Gáspár, Dietmar Kirchner, Klaus Raidt</JazzGuestNames>
 		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
 		<JazzGuestFileName>JazzGuests/d20090214_DKgramm.png</JazzGuestFileName>
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>23</JazzGuestRegNumber>
 	</JazzGuest>
@@ -351,6 +443,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>2</JazzGuestMonth>
 		<JazzGuestDay>28</JazzGuestDay>
+		<JazzGuestBand>Luigi Ferrara Quartet</JazzGuestBand>
+		<JazzGuestMusicians>Luigi Ferrara, Moreno D'Onofrio, Dominique Girod, Elmar Frey</JazzGuestMusicians>
 		<JazzGuestHeader>Luigi Ferrara Quartet</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>NotYetSetNodeValue</JazzGuestNames>
@@ -359,6 +453,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>24</JazzGuestRegNumber>
 	</JazzGuest>
@@ -366,6 +462,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>3</JazzGuestMonth>
 		<JazzGuestDay>14</JazzGuestDay>
+		<JazzGuestBand>Klingsor Trio</JazzGuestBand>
+		<JazzGuestMusicians>Gregor Loepfe, Matthias Ammann, Eric Rütsche</JazzGuestMusicians>
 		<JazzGuestHeader>Klingsor Trio</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Gregor Loepfe, Matthias Ammann, Eric Rütsche</JazzGuestNames>
@@ -374,6 +472,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>25</JazzGuestRegNumber>
 	</JazzGuest>
@@ -381,6 +481,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>3</JazzGuestMonth>
 		<JazzGuestDay>28</JazzGuestDay>
+		<JazzGuestBand>New Shoes</JazzGuestBand>
+		<JazzGuestMusicians>Hans Kennel, Nathanael Su, Bruno Spoerri, Herbie Kopf, Elmar Frey</JazzGuestMusicians>
 		<JazzGuestHeader>New Shoes</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Hans Kennel, Nathanael Su, Bruno Spoerri, Herbie Kopf, Elmar Frey</JazzGuestNames>
@@ -389,6 +491,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>26</JazzGuestRegNumber>
 	</JazzGuest>
@@ -396,6 +500,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>9</JazzGuestMonth>
 		<JazzGuestDay>26</JazzGuestDay>
+		<JazzGuestBand>Christoph Irniger Quartet</JazzGuestBand>
+		<JazzGuestMusicians>Christoph Irniger, Chris Wiesendanger, Christian Weber, Claudio Strüby</JazzGuestMusicians>
 		<JazzGuestHeader>Christoph Irniger Quartet</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Christoph Irniger, Chris Wiesendanger, Christian Weber, Claudio Strüby</JazzGuestNames>
@@ -404,6 +510,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>27</JazzGuestRegNumber>
 	</JazzGuest>
@@ -411,6 +519,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>10</JazzGuestMonth>
 		<JazzGuestDay>10</JazzGuestDay>
+		<JazzGuestBand>Thomas Lüscher new trio</JazzGuestBand>
+		<JazzGuestMusicians>Thomas Lüscher, Manuel Müller, Samuel Dühsler</JazzGuestMusicians>
 		<JazzGuestHeader>Thomas Lüscher new trio</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Thomas Lüscher, Manuel Müller, Samuel Dühsler</JazzGuestNames>
@@ -419,6 +529,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>28</JazzGuestRegNumber>
 	</JazzGuest>
@@ -426,6 +538,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>10</JazzGuestMonth>
 		<JazzGuestDay>10</JazzGuestDay>
+		<JazzGuestBand>Thomas Lüscher new trio</JazzGuestBand>
+		<JazzGuestMusicians>Thomas Lüscher, Manuel Müller, Samuel Dühsler</JazzGuestMusicians>
 		<JazzGuestHeader>Thomas Lüscher new trio</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Thomas Lüscher, Manuel Müller, Samuel Dühsler</JazzGuestNames>
@@ -434,6 +548,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>29</JazzGuestRegNumber>
 	</JazzGuest>
@@ -441,6 +557,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>10</JazzGuestMonth>
 		<JazzGuestDay>24</JazzGuestDay>
+		<JazzGuestBand>Michael Hammer Quartet</JazzGuestBand>
+		<JazzGuestMusicians>Michael Hammer, Oliver Widmer, Fridolin Blumer</JazzGuestMusicians>
 		<JazzGuestHeader>Michael Hammer Quartet</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Michael Hammer, Oliver Widmer, Fridolin Blumer</JazzGuestNames>
@@ -449,6 +567,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>30</JazzGuestRegNumber>
 	</JazzGuest>
@@ -456,6 +576,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>10</JazzGuestMonth>
 		<JazzGuestDay>24</JazzGuestDay>
+		<JazzGuestBand>Accordion Project</JazzGuestBand>
+		<JazzGuestMusicians>Rossella Bellinelli, Danilo Boggini, Sandro Di Pisa, Alberto Guareschi, Mauro Pesenti</JazzGuestMusicians>
 		<JazzGuestHeader>Accordion Project</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Rossella Bellinelli, Danilo Boggini, Sandro Di Pisa, Alberto Guareschi, Mauro Pesenti</JazzGuestNames>
@@ -464,6 +586,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>31</JazzGuestRegNumber>
 	</JazzGuest>
@@ -471,6 +595,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>11</JazzGuestMonth>
 		<JazzGuestDay>7</JazzGuestDay>
+		<JazzGuestBand>Gabriela Krapf Quartet</JazzGuestBand>
+		<JazzGuestMusicians>Gabriela Krapf, Christian Münchinger, Roberto Bossard, Raffaele Bossard</JazzGuestMusicians>
 		<JazzGuestHeader>Gabriela Krapf Quartet</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Gabriela Krapf, Christian Münchinger, Roberto Bossard, Raffaele Bossard</JazzGuestNames>
@@ -479,6 +605,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>32</JazzGuestRegNumber>
 	</JazzGuest>
@@ -486,6 +614,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>11</JazzGuestMonth>
 		<JazzGuestDay>21</JazzGuestDay>
+		<JazzGuestBand>Daniel Blanc Quartett</JazzGuestBand>
+		<JazzGuestMusicians>Daniel Blanc, Walter Jauslin, Giorgos Antoniou, Peter Schmidlin</JazzGuestMusicians>
 		<JazzGuestHeader>Daniel Blanc Quartett</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Daniel Blanc, Walter Jauslin, Giorgos Antoniou, Peter Schmidlin</JazzGuestNames>
@@ -494,6 +624,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>33</JazzGuestRegNumber>
 	</JazzGuest>
@@ -501,6 +633,8 @@
 		<JazzGuestYear>2009</JazzGuestYear>
 		<JazzGuestMonth>12</JazzGuestMonth>
 		<JazzGuestDay>5</JazzGuestDay>
+		<JazzGuestBand>Michael Gassmann Fearless Five</JazzGuestBand>
+		<JazzGuestMusicians>Michael Gassmann, Gregor Müller, Eric Hunziker, Herbert Kramis</JazzGuestMusicians>
 		<JazzGuestHeader>Michael Gassmann Fearless Five</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Michael Gassmann, Gregor Müller, Eric Hunziker, Herbert Kramis</JazzGuestNames>
@@ -509,6 +643,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>34</JazzGuestRegNumber>
 	</JazzGuest>
@@ -516,6 +652,8 @@
 		<JazzGuestYear>2010</JazzGuestYear>
 		<JazzGuestMonth>2</JazzGuestMonth>
 		<JazzGuestDay>6</JazzGuestDay>
+		<JazzGuestBand>Othella Dallas and Band</JazzGuestBand>
+		<JazzGuestMusicians>Othella Dallas, Hannes Bürgi, Michael Chylewski, Urs Müller, Lucas Gasser</JazzGuestMusicians>
 		<JazzGuestHeader>Othella Dallas and Band</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Othella Dallas</JazzGuestNames>
@@ -524,6 +662,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>35</JazzGuestRegNumber>
 	</JazzGuest>
@@ -531,6 +671,8 @@
 		<JazzGuestYear>2010</JazzGuestYear>
 		<JazzGuestMonth>2</JazzGuestMonth>
 		<JazzGuestDay>6</JazzGuestDay>
+		<JazzGuestBand>Othella Dallas and Band</JazzGuestBand>
+		<JazzGuestMusicians>Othella Dallas, Hannes Bürgi, Michael Chylewski, Urs Müller, Lucas Gasser</JazzGuestMusicians>
 		<JazzGuestHeader>Othella Dallas and Band</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Hannes Bürgi, Michael Chylewski, Urs Müller, Lucas Gasser</JazzGuestNames>
@@ -539,6 +681,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>36</JazzGuestRegNumber>
 	</JazzGuest>
@@ -546,6 +690,8 @@
 		<JazzGuestYear>2010</JazzGuestYear>
 		<JazzGuestMonth>3</JazzGuestMonth>
 		<JazzGuestDay>6</JazzGuestDay>
+		<JazzGuestBand>Michael Neff Group featuring Marie Malou</JazzGuestBand>
+		<JazzGuestMusicians>Marie Malou, Michael Neff, Markus Bischof, Ralph Hufenus, Mario Söldi</JazzGuestMusicians>
 		<JazzGuestHeader>Michael Neff Group featuring Marie Malou</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Marie Malou, Michael Neff, Markus Bischof, Ralph Hufenus, Mario Söldi</JazzGuestNames>
@@ -554,6 +700,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>37</JazzGuestRegNumber>
 	</JazzGuest>
@@ -561,6 +709,8 @@
 		<JazzGuestYear>2010</JazzGuestYear>
 		<JazzGuestMonth>3</JazzGuestMonth>
 		<JazzGuestDay>20</JazzGuestDay>
+		<JazzGuestBand>Stewy von Wattenwyl Trio featuring Ray Blue</JazzGuestBand>
+		<JazzGuestMusicians>Ray Blue, Stewy von Wattenwyl, Christoph Sprenger, Kevin Chesham</JazzGuestMusicians>
 		<JazzGuestHeader>Stewy von Wattenwyl Trio featuring Ray Blue</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Ray Blue, Stewy von Wattenwyl, Christoph Sprenger, Kevin Chesham</JazzGuestNames>
@@ -569,6 +719,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>38</JazzGuestRegNumber>
 	</JazzGuest>
@@ -576,6 +728,8 @@
 		<JazzGuestYear>2010</JazzGuestYear>
 		<JazzGuestMonth>10</JazzGuestMonth>
 		<JazzGuestDay>30</JazzGuestDay>
+		<JazzGuestBand>Barbara Balzan Quartet feat. Paolo Fresú</JazzGuestBand>
+		<JazzGuestMusicians>Barbara Balzan, Paolo Fresú, Attilio Zanchi, Gregor Müller, Tony Renold</JazzGuestMusicians>
 		<JazzGuestHeader>Barbara Balzan Quartet feat. Paolo Fresú</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Barbara Balzan, Paolo Fresú, Attilio Zanchi, Gregor Müller, Tony Renold</JazzGuestNames>
@@ -584,6 +738,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>39</JazzGuestRegNumber>
 	</JazzGuest>
@@ -591,6 +747,8 @@
 		<JazzGuestYear>2011</JazzGuestYear>
 		<JazzGuestMonth>3</JazzGuestMonth>
 		<JazzGuestDay>12</JazzGuestDay>
+		<JazzGuestBand>Marc Hunziker Trio</JazzGuestBand>
+		<JazzGuestMusicians>Laura Cesar, Jürg Voney, Marc Hunziker</JazzGuestMusicians>
 		<JazzGuestHeader>Marc Hunziker Trio</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Laura Cesar, Jürg Voney, Marc Hunziker</JazzGuestNames>
@@ -599,6 +757,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>40</JazzGuestRegNumber>
 	</JazzGuest>
@@ -606,6 +766,8 @@
 		<JazzGuestYear>2013</JazzGuestYear>
 		<JazzGuestMonth>3</JazzGuestMonth>
 		<JazzGuestDay>9</JazzGuestDay>
+		<JazzGuestBand>Jazz Passengers</JazzGuestBand>
+		<JazzGuestMusicians>Jörg Hauser, Sabine Siegrist, Rougie Rothenbühler, Tico Keller, Hannes Hänggli</JazzGuestMusicians>
 		<JazzGuestHeader>Jazz Passengers</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Jörg Hauser, Sabine Siegrist, Rougie Rothenbühler, Tico Keller, Hannes Hänggli</JazzGuestNames>
@@ -614,6 +776,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>41</JazzGuestRegNumber>
 	</JazzGuest>
@@ -621,6 +785,8 @@
 		<JazzGuestYear>2013</JazzGuestYear>
 		<JazzGuestMonth>12</JazzGuestMonth>
 		<JazzGuestDay>14</JazzGuestDay>
+		<JazzGuestBand>Daccordeon</JazzGuestBand>
+		<JazzGuestMusicians>Richard Pizzorno, Nick Perrin, Sam Joss, Chris von Hoffmann</JazzGuestMusicians>
 		<JazzGuestHeader>Daccordeon</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Richard Pizzorno, Nick Perrin, Sam Joss, Chris von Hoffmann</JazzGuestNames>
@@ -629,6 +795,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>42</JazzGuestRegNumber>
 	</JazzGuest>
@@ -636,6 +804,8 @@
 		<JazzGuestYear>2015</JazzGuestYear>
 		<JazzGuestMonth>10</JazzGuestMonth>
 		<JazzGuestDay>31</JazzGuestDay>
+		<JazzGuestBand>Claude Diallo Situation</JazzGuestBand>
+		<JazzGuestMusicians>Claude Diallo, Laurent Salzard, Massimo Buonanno</JazzGuestMusicians>
 		<JazzGuestHeader>Claude Diallo Situation</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Eva Eder</JazzGuestNames>
@@ -644,6 +814,8 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>43</JazzGuestRegNumber>
 	</JazzGuest>
@@ -653,6 +825,8 @@
 		<JazzGuestYear>2015</JazzGuestYear>
 		<JazzGuestMonth9</JazzGuestMonth>
 		<JazzGuestDay>19</JazzGuestDay>
+		<JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
+		<JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
 		<JazzGuestHeader>Jubiläum 15 Jahre</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Georges Weiersmüller</JazzGuestNames>
@@ -661,12 +835,17 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>XX</JazzGuestRegNumber>
 	</JazzGuest>
 	<JazzGuest>
 		<JazzGuestYear>2018</JazzGuestYear>
 		<JazzGuestMonth>11</JazzGuestMonth>
 		<JazzGuestDay>3</JazzGuestDay>
+		<JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
+		<JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
 		<JazzGuestHeader>Marc Hunziker Trio</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>Flügeltransport</JazzGuestNames>
@@ -675,7 +854,10 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>XX</JazzGuestRegNumber>
 	</JazzGuest>
 		
 		
@@ -684,6 +866,8 @@
 		<JazzGuestYear>NotYetSetNodeValue</JazzGuestYear>
 		<JazzGuestMonth>NotYetSetNodeValue</JazzGuestMonth>
 		<JazzGuestDay>NotYetSetNodeValue</JazzGuestDay>
+		<JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
+		<JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
 		<JazzGuestHeader>NotYetSetNodeValue</JazzGuestHeader>
 		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
 		<JazzGuestNames>NotYetSetNodeValue</JazzGuestNames>
@@ -692,7 +876,10 @@
 		<JazzGuestFileType>IMG</JazzGuestFileType>
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>XX</JazzGuestRegNumber>
 	</JazzGuest>
 	-->
 

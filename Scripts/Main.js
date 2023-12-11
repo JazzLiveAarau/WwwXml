@@ -1,5 +1,5 @@
 // File: Main.js
-// Date: 2023-12-06
+// Date: 2023-12-10
 // Author: Gunnar Lidén
 
 // Inhalt
@@ -18,6 +18,9 @@ var g_application_xml = null;
 
 // Jazz guests XML object
 var g_jazz_guests_xml = null;
+
+// Jazz season XML object
+var g_jazz_season_xml = null;
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////// End Global Parameters ///////////////////////////////////////////
@@ -132,7 +135,34 @@ function callbackGuestsXml()
 
     //el_pretty_print.innerHTML = xml_win_str;
 
+    var n_level_xml = 1;
+
+    var season_start_year = 2023;
+
+    g_jazz_season_xml = new SeasonXml(callbackSeasonXml, n_level_xml, season_start_year);
+
 } // callbackGuestsXml
+
+// Callback function after the creation of the season XML object
+function callbackSeasonXml()
+{
+    var concert_number = 4;
+    var musician_number = 1;
+
+    var band_name = g_jazz_season_xml.getBandName(concert_number);
+
+    var musician_name = g_jazz_season_xml.getMusicianName(concert_number, musician_number);
+
+    var result_str = '<br>' +'Jazz season XML results:' + '<br>' +
+    "Concert number= " + concert_number.toString() + ' Musician number= ' + concert_number.toString() + '<br>' +
+    'Band name= ' + band_name + '<br>' +
+    'Musician name= ' + musician_name;
+
+    var el_season_results = getDivElementSeasonResults();
+
+    el_season_results.innerHTML = result_str;
+
+} // callbackSeasonXml
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////// End Main Functions //////////////////////////////////////////////
@@ -169,6 +199,20 @@ function getIdDivElementGuestsResults()
     return 'id_div_jazz_guests_xml_results';
 
 } // getIdDivElementGuestsResults
+
+// Returns the element season XML <div> element
+function getDivElementSeasonResults()
+{
+    return document.getElementById(getIdDivElementSeasonResults());
+
+} // getDivElementSeasonResults
+
+//Returns the identity of the season XML <div> element
+function getIdDivElementSeasonResults()
+{
+    return 'id_div_jazz_season_xml_results';
+
+} // getIdDivElementSeasonResults
 
 // Returns the element pretty print <div> element
 function getDivElementPrettyPrint()

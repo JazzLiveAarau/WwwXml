@@ -623,7 +623,7 @@ class JazzGuestsXml
         
     jazz_xmlhttp.send();	
 
-    } // jazzUtilLoadXml
+    } // loadOneXmlFile
 
     ///////////////////////////////////////////////////////////////////////////
     /////// End Load Functions ////////////////////////////////////////////////
@@ -819,7 +819,7 @@ class JazzGuestsXml
         else
         {
             alert("JazzGuestsXml.getXmlJazzGuestsFileName i_n_level= " + 
-            this.m_n_level_xml.toString() + " nicht between 0 and 3");
+            this.m_n_level_xml.toString() + " not between 0 and 3");
 
             return ret_file_name;
         }
@@ -888,7 +888,7 @@ class JazzGuestsXml
 
 } // JazzGuestsXml
 
-// Class defining the tags of the XML application file
+// Class defining the tags of the XML jazz guest file
 class JazzGuestsTags 
 {
     // Creates the instance of the class

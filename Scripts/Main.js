@@ -1,5 +1,5 @@
 // File: Main.js
-// Date: 2023-12-10
+// Date: 2023-12-13
 // Author: Gunnar Lidén
 
 // Inhalt
@@ -7,7 +7,7 @@
 //
 // Main function for the test of XML functions
 //
-// Server directory for WwwXml is /www/XmlLib/
+// Server directory for WwwXml is /www/WwwXml/
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////// Start Global Parameters /////////////////////////////////////////
@@ -234,10 +234,10 @@ function getIdDivElementPrettyPrint()
 
 // User clicked merge files. 
 // The JavaScript files will be merged to one file and written to the server directory
-// /www/JazzScripts/. The directory name is defined in file MergeLoginLogout.php.
+// /www/JazzScripts/. The directory name is defined in file MergeXml.php.
 function eventMergeFiles()
 {
-    var file_name = 'Xml_20231206.js';
+    var file_name = 'Xml_20231213.js';
 
     $.post
       ('PhpMerge/MergeXml.php',

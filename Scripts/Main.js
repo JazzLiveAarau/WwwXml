@@ -1,5 +1,5 @@
 // File: Main.js
-// Date: 2023-12-13
+// Date: 2023-12-14
 // Author: Gunnar Lidén
 
 // Inhalt
@@ -59,8 +59,10 @@ function callbackApplicationXml()
                                'n_it_team_members= ' + n_it_team_members.toString() + '<br>';
 
     var n_level_xml = 1;
+
+    var b_update_xml = true;
     
-    g_jazz_guests_xml = new JazzGuestsXml(callbackGuestsXml, n_level_xml); 
+    g_jazz_guests_xml = new JazzGuestsXml(callbackGuestsXml, n_level_xml, b_update_xml); 
 
 } // callbackApplicationXml
 
@@ -69,7 +71,7 @@ function callbackGuestsXml()
 {
     var n_records = g_jazz_guests_xml.getNumberOfGuestRecords();
 
-    var record_number = 4;
+    var record_number = 2;
 
     var test_year = "2025";
 
@@ -133,7 +135,7 @@ function callbackGuestsXml()
 
     var el_pretty_print =  getDivElementPrettyPrint();
 
-    //el_pretty_print.innerHTML = xml_win_str;
+    // el_pretty_print.innerHTML = xml_win_str;
 
     var n_level_xml = 1;
 
@@ -237,7 +239,7 @@ function getIdDivElementPrettyPrint()
 // /www/JazzScripts/. The directory name is defined in file MergeXml.php.
 function eventMergeFiles()
 {
-    var file_name = 'Xml_20231213.js';
+    var file_name = 'Xml_20231214.js';
 
     $.post
       ('PhpMerge/MergeXml.php',

@@ -1,0 +1,45 @@
+<?xml version= "1.0" encoding="utf-8"?>
+<!--  JAZZ live AARAU guests. Uploaded images -->  
+<HomepageJazzGuests>
+
+	<JazzGuest>
+		<JazzGuestYear>2023</JazzGuestYear>
+		<JazzGuestMonth>12</JazzGuestMonth>
+		<JazzGuestDay>08</JazzGuestDay>
+		<JazzGuestBand>Band Xyz</JazzGuestBand>
+		<JazzGuestMusicians>Gustav Xyz, Pelle MNo, Sofia Qwe</JazzGuestMusicians>
+		<JazzGuestHeader>Header Text Bild 2 ....</JazzGuestHeader>
+		<JazzGuestText>Wir haben das Konzert sehr schön gefunden</JazzGuestText>
+		<JazzGuestNames>Gianin Widmer</JazzGuestNames>
+		<JazzGuestRemark>Eine Bemerkung ....</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/Uploaded/d20231208_TestBild_1.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>guest.one@gmail.com</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>NotYetSetNodeValue</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>2023</JazzGuestYear>
+		<JazzGuestMonth>12</JazzGuestMonth>
+		<JazzGuestDay>09</JazzGuestDay>
+		<JazzGuestBand>Band Klm</JazzGuestBand>
+		<JazzGuestMusicians>Peter Xxxx, Markus Mno, Thomas Qwe</JazzGuestMusicians>
+		<JazzGuestHeader>Bildtext vom Publikum für Bild 2</JazzGuestHeader>
+		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+		<JazzGuestNames>NotYetSetNodeValue</JazzGuestNames>
+		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+		<JazzGuestFileName>JazzGuests/Uploaded/d20231209_TestBild_2.jpg</JazzGuestFileName>
+		<JazzGuestFileType>IMG</JazzGuestFileType>
+		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+		<JazzGuestEmail>guest.two@bluewin.ch</JazzGuestEmail>
+		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestPublish>TRUE</JazzGuestPublish>
+		<JazzGuestRegNumber>NotYetSetNodeValue</JazzGuestRegNumber>
+	</JazzGuest>
+
+
+</HomepageJazzGuests>	

@@ -1,17 +1,18 @@
 // File: JazzGuestsXml.js
-// Date: 2023-12-06
+// Date: 2023-12-14
 // Author: Gunnar Lidén
 
 // File content
 // =============
 //
-// Class for the jazz guests XML file JazzGuests.xml
+// Class for the jazz guests XML files JazzGuests.xml and JazzGuestsUploaded.xml
 class JazzGuestsXml
 {
     // Creates the instance of the class
     // i_callback_function_name: Function that shall be called after loading
     // i_n_level_xml:            Directory levels to /www/XML/
-    constructor(i_callback_function_name, i_n_level_xml) 
+    // i_b_update_xml:           Eq. false: JazzGuests.xml Eq. true: azzGuestsUpload.xml
+    constructor(i_callback_function_name, i_n_level_xml, i_b_update_xml) 
     {
         // Member variables
         // ================
@@ -22,8 +23,14 @@ class JazzGuestsXml
         // Directory levels to /www/XML/
         this.m_n_level_xml = i_n_level_xml;
 
+        // Boolean telling if JazzGuestsUploaded.xml shall be used
+        this.m_b_update_xml = i_b_update_xml;
+
         // Path and name of XML file in the computer
         this.m_xml_file_name_local = 'XmlTestData/JazzGuestsTestData.xml';
+
+        // Path and name of the upload XML file in the computer
+        this.m_xml_file_name_upload_local = 'XmlTestData/JazzGuestsUploadTestData.xml';
 
         // The jazz application xml object
         this.m_object_xml = null;
@@ -33,6 +40,11 @@ class JazzGuestsXml
 
         // Flag that a node value not have been set
         this.m_not_yet_set_node_value = "NotYetSetNodeValue";
+
+        // Status strings
+        this.m_status_guest_uploaded = 'UploadedByGuest';
+        this.m_status_admin_added = 'AddedByAdmin';
+        this.m_status_uploaded_homepage = 'UploadedToHomepage';
 
         // Loads the XML object for aapplication file and calls the function m_callback_function_name
         this.loadOneXmlFile(this, this.getXmlJazzGuestsFileName(), this.m_callback_function_name);
@@ -161,6 +173,48 @@ class JazzGuestsXml
         return this.getGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number);
         
     } // getGuestStatus
+
+    // Returns true if the guest record status is uploaded by a guest
+    isGuestStatusUploadedByGuest(i_record_number)
+    {
+        if (this.getGuestStatus(i_record_number) == this.m_status_guest_uploaded)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    } // isGuestStatusUploadedByGuest
+
+    // Returns true if the guest record status is added by an administrator
+    isGuestStatusAddedByAdmin(i_record_number)
+    {
+        if (this.getGuestStatus(i_record_number) == this.m_status_admin_added)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    } // isGuestStatusAddedByAdmin
+
+    // Returns true if the guest record status is uploaded to homepage
+    isGuestStatusUploadedToHomepage(i_record_number)
+    {
+        if (this.getGuestStatus(i_record_number) == this.m_status_uploaded_homepage)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    } // isGuestStatusUploadedToHomepage
 
     // Returns the guest record publish flag as string
     getGuestPublish(i_record_number)
@@ -314,6 +368,27 @@ class JazzGuestsXml
         return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, i_node_value);
         
    } // setGuestStatus  
+
+   // Sets the guest record status to uploaded by a guest
+   setGuestStatusUploadedByGuest(i_record_number)
+   {
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_guest_uploaded);
+        
+   } // setGuestStatusUploadedByGuest  
+
+   // Sets the guest record status to added by an administrator
+   setGuestStatusAddedByAdmin(i_record_number)
+   {
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_admin_added);
+        
+   } // setGuestStatusAddedByAdmin
+
+   // Sets the guest record status to uploaded to homepage
+   setGuestStatusUploadedToHomepage(i_record_number)
+   {
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_uploaded_homepage);
+        
+   } // setGuestStatusUploadedToHomepage
 
    // Sets the guest record publish flag as string
    setGuestPublish(i_record_number, i_node_value)
@@ -824,7 +899,15 @@ class JazzGuestsXml
             return ret_file_name;
         }
 
-        ret_file_name = level_xml_str + 'JazzGuests.xml';
+        if (this.m_b_update_xml)
+        {
+            var level_uploaded_str = level_xml_str.replace('XML', 'JazzGuests') + 'Uploaded/';
+            ret_file_name = level_uploaded_str + 'JazzGuestsUploaded.xml';
+        }
+        else
+        {
+            ret_file_name = level_xml_str + 'JazzGuests.xml';
+        }
 
         if (!JazzGuestsXml.execApplicationOnServer())
         {
@@ -839,7 +922,14 @@ class JazzGuestsXml
                 level_test_str = '../../';
             }
 
-            return level_test_str + this.m_xml_file_name_local;
+            if (this.m_b_update_xml)
+            {
+                return level_test_str + this.m_xml_file_name_upload_local;
+            }
+            else
+            {
+                return level_test_str + this.m_xml_file_name_local;
+            }   
         }        
 
         return ret_file_name;

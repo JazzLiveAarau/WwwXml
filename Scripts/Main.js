@@ -1,5 +1,5 @@
 // File: Main.js
-// Date: 2023-12-14
+// Date: 2023-12-19
 // Author: Gunnar Lidén
 
 // Inhalt
@@ -71,27 +71,21 @@ function callbackGuestsXml()
 {
     var n_records = g_jazz_guests_xml.getNumberOfGuestRecords();
 
-    var record_number = 2;
+    var header_array = g_jazz_guests_xml.getHeaderArray();
 
-    var test_year = "2025";
+    var record_number = 1;
 
-    g_jazz_guests_xml.setGuestYear(record_number, test_year)
+    var jazz_guest_rec = new JazzGuest();
+    
+    jazz_guest_rec.setJazzGuestRecord(g_jazz_guests_xml, record_number);
 
-    var record_header = g_jazz_guests_xml.getGuestHeader(record_number);
+    jazz_guest_rec.setRemark('Test remark set in function callbackGuestsXml');
 
-    var record_names = g_jazz_guests_xml.getGuestNames(record_number);
+    jazz_guest_rec.setRegNumber('10');
 
-    var record_band = g_jazz_guests_xml.getGuestBand(record_number);
+    jazz_guest_rec.appendXmlJazzGuestRecord(g_jazz_guests_xml);
 
-    var record_musicians = g_jazz_guests_xml.getGuestMusicians(record_number);
-
-    var record_file_type = g_jazz_guests_xml.getGuestFileType(record_number);
-
-    var record_telephone = g_jazz_guests_xml.getGuestTelephone(record_number);
-
-    var record_status = g_jazz_guests_xml.getGuestStatus(record_number);
-
-    var record_reg_number = g_jazz_guests_xml.getGuestRegNumber(record_number);
+    displayXmlObject();
 
     var img_record_numbers = g_jazz_guests_xml.getRecordsImageArray();
 
@@ -110,16 +104,6 @@ function callbackGuestsXml()
     var guests_el = getDivElementGuestsResults();
 
     var result_str = '<br>' +'Jazz guests XML results:' + '<br>' +
-    "Number of guest records: " + n_records.toString() +  '<br>' +
-    "Record number " + record_number.toString() +  '<br>' +
-    "Record header '" + record_header + "'" +  '<br>' +
-    "Record names '" + record_names + "'" +  '<br>' + 
-    "Record band '" + record_band + "'" +  '<br>' + 
-    "Record musicians '" + record_musicians + "'" +  '<br>' + 
-    "Record file type '" + record_file_type + "'" +  '<br>' + 
-    //"Record telephone '" + record_telephone + "'" +  '<br>' + 
-    //"Record status '" + record_status + "'" +  '<br>' + 
-    "Registration number " + record_reg_number.toString() +  '<br>' + 
     "Number of published IMG records " + n_img_records.toString() +  '<br>' +
     "Number of guest images " + photo_data_list.getNumberOfPhotos().toString() +  '<br>';
 
@@ -129,13 +113,7 @@ function callbackGuestsXml()
 
     g_jazz_guests_xml.initAppendedForImg();
 
-    var pretty_print_xml = new PrettyPrintXml(g_jazz_guests_xml.getXmlObject());
-
-    var xml_win_str = pretty_print_xml.xmlToWinFormattedString();
-
-    var el_pretty_print =  getDivElementPrettyPrint();
-
-    // el_pretty_print.innerHTML = xml_win_str;
+    displayXmlObject();
 
     var n_level_xml = 1;
 
@@ -144,6 +122,17 @@ function callbackGuestsXml()
     g_jazz_season_xml = new SeasonXml(callbackSeasonXml, n_level_xml, season_start_year);
 
 } // callbackGuestsXml
+
+function displayXmlObject()
+{
+    var pretty_print_xml = new PrettyPrintXml(g_jazz_guests_xml.getXmlObject());
+
+    var xml_win_str = pretty_print_xml.xmlToWinFormattedString();
+
+    var el_pretty_print =  getDivElementPrettyPrint();
+
+    // el_pretty_print.innerHTML = xml_win_str;
+}
 
 // Callback function after the creation of the season XML object
 function callbackSeasonXml()

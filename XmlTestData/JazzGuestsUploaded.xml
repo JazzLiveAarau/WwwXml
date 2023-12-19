@@ -19,7 +19,7 @@
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
 		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
-		<JazzGuestRegNumber>NotYetSetNodeValue</JazzGuestRegNumber>
+		<JazzGuestRegNumber>TestRegNumberOne</JazzGuestRegNumber>
 	</JazzGuest>
 	<JazzGuest>
 		<JazzGuestYear>2023</JazzGuestYear>
@@ -38,7 +38,7 @@
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
 		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
-		<JazzGuestRegNumber>NotYetSetNodeValue</JazzGuestRegNumber>
+		<JazzGuestRegNumber>TestRegNumberTwo</JazzGuestRegNumber>
 	</JazzGuest>
 
 

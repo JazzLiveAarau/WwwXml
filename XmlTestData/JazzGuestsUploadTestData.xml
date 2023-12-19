@@ -1,7 +1,44 @@
 <?xml version= "1.0" encoding="utf-8"?>
 <!--  JAZZ live AARAU guests. Uploaded images -->  
 <HomepageJazzGuests>
-
+	<JazzGuest>
+		<JazzGuestYear>RecordOne</JazzGuestYear>
+		<JazzGuestMonth>RecordOne</JazzGuestMonth>
+		<JazzGuestDay>RecordOne</JazzGuestDay>
+		<JazzGuestBand>RecordOne</JazzGuestBand>
+		<JazzGuestMusicians>RecordOne</JazzGuestMusicians>
+		<JazzGuestHeader>RecordOne</JazzGuestHeader>
+		<JazzGuestText>RecordOne</JazzGuestText>
+		<JazzGuestNames>RecordOne</JazzGuestNames>
+		<JazzGuestRemark>RecordOne</JazzGuestRemark>
+		<JazzGuestFileName>RecordOne</JazzGuestFileName>
+		<JazzGuestFileType>RecordOne</JazzGuestFileType>
+		<JazzGuestAvatar>RecordOne</JazzGuestAvatar>
+		<JazzGuestEmail>RecordOne</JazzGuestEmail>
+		<JazzGuestTelephone>RecordOne</JazzGuestTelephone>
+		<JazzGuestStatus>RecordOne</JazzGuestStatus>
+		<JazzGuestPublish>RecordOne</JazzGuestPublish>
+		<JazzGuestRegNumber>RecordOne</JazzGuestRegNumber>
+	</JazzGuest>
+	<JazzGuest>
+		<JazzGuestYear>RecordTwo</JazzGuestYear>
+		<JazzGuestMonth>RecordTwo</JazzGuestMonth>
+		<JazzGuestDay>RecordTwo</JazzGuestDay>
+		<JazzGuestBand>RecordTwo</JazzGuestBand>
+		<JazzGuestMusicians>RecordTwo</JazzGuestMusicians>
+		<JazzGuestHeader>RecordTwo</JazzGuestHeader>
+		<JazzGuestText>RecordTwo</JazzGuestText>
+		<JazzGuestNames>RecordTwo</JazzGuestNames>
+		<JazzGuestRemark>RecordTwo</JazzGuestRemark>
+		<JazzGuestFileName>RecordTwo</JazzGuestFileName>
+		<JazzGuestFileType>RecordTwo</JazzGuestFileType>
+		<JazzGuestAvatar>RecordTwo</JazzGuestAvatar>
+		<JazzGuestEmail>RecordTwo</JazzGuestEmail>
+		<JazzGuestTelephone>RecordTwo</JazzGuestTelephone>
+		<JazzGuestStatus>RecordTwo</JazzGuestStatus>
+		<JazzGuestPublish>RecordTwo</JazzGuestPublish>
+		<JazzGuestRegNumber>RecordTwo</JazzGuestRegNumber>
+	</JazzGuest>
 	<JazzGuest>
 		<JazzGuestYear>2023</JazzGuestYear>
 		<JazzGuestMonth>12</JazzGuestMonth>

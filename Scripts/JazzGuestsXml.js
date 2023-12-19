@@ -459,12 +459,12 @@ class JazzGuestsXml
 
         var band_node = this.getXmlObject().createElement(this.m_tags.getGuestBand());
         var band_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
-        day_node.appendChild(band_text);
+        band_node.appendChild(band_text);
         new_guest.appendChild(band_node);
 
         var musicians_node = this.getXmlObject().createElement(this.m_tags.getGuestMusicians());
         var musicians_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
-        day_node.appendChild(musicians_text);
+        musicians_node.appendChild(musicians_text);
         new_guest.appendChild(musicians_node);
 
         var header_node = this.getXmlObject().createElement(this.m_tags.getGuestHeader());
@@ -509,12 +509,12 @@ class JazzGuestsXml
 
         var telephone_node = this.getXmlObject().createElement(this.m_tags.getGuestTelephone());
         var telephone_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
-        day_node.appendChild(telephone_text);
+        telephone_node.appendChild(telephone_text);
         new_guest.appendChild(telephone_node);
 
         var status_node = this.getXmlObject().createElement(this.m_tags.getGuestStatus());
         var status_text = this.getXmlObject().createTextNode(this.m_not_yet_set_node_value);
-        day_node.appendChild(status_text);
+        status_node.appendChild(status_text);
         new_guest.appendChild(status_node);
 
         var publish_node = this.getXmlObject().createElement(this.m_tags.getGuestPublish());
@@ -655,6 +655,26 @@ class JazzGuestsXml
         return record_numbers_image_array;
     
     } // getRecordsImageArray
+
+    // Get string array with all headers
+    getHeaderArray()
+    {
+        var record_header_array = [];
+    
+        var n_records = this.getNumberOfGuestRecords();
+    
+        for (var record_number=1; record_number <= n_records; record_number++)
+        {
+    
+            var header_txt =  this.getGuestHeader(record_number);
+
+            record_header_array[record_number - 1] = header_txt;
+
+        }
+
+        return record_header_array;
+
+    } // getHeaderArray
 
     ///////////////////////////////////////////////////////////////////////////
     ///////////////////////// End Member Utility Functions ////////////////////

@@ -375,7 +375,7 @@ class JazzGuest
 
         this.setMusicians(i_guest_xml_object.getGuestMusicians(i_record_number));
 
-        this.setYear(i_guest_xml_object.getGuestDay(i_record_number));
+        this.setYear(i_guest_xml_object.getGuestYear(i_record_number));
 
         this.setMonth(i_guest_xml_object.getGuestMonth(i_record_number));
 

@@ -41,6 +41,7 @@ $file_content = file_get_contents('../Scripts/JazzApplicationXml.js');
 $file_content .= "\n" . file_get_contents('../Scripts/SeasonXml.js');
 $file_content .= "\n" . file_get_contents('../Scripts/JazzGuestsXml.js');
 $file_content .= "\n" . file_get_contents('../Scripts/JazzGuestSearch.js');
+$file_content .= "\n" . file_get_contents('../Scripts/JazzGuestRecord.js');
 $file_content .= "\n" . file_get_contents('../Scripts/PhotosSearch.js');
 $file_content .= "\n" . file_get_contents('../Scripts/PhotoDataList.js');
 $file_content .= "\n" . file_get_contents('../Scripts/PrettyPrintXml.js');

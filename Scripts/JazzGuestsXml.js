@@ -1,5 +1,5 @@
 // File: JazzGuestsXml.js
-// Date: 2023-12-14
+// Date: 2024-01-20
 // Author: Gunnar Lidén
 
 // File content
@@ -42,9 +42,9 @@ class JazzGuestsXml
         this.m_not_yet_set_node_value = "NotYetSetNodeValue";
 
         // Status strings
-        this.m_status_guest_uploaded = 'UploadedByGuest';
-        this.m_status_admin_added = 'AddedByAdmin';
-        this.m_status_uploaded_homepage = 'UploadedToHomepage';
+        this.m_status_pending_rec_uploaded = 'PendingRecordInUploaded';
+        this.m_status_admin_added_or_checked = 'AddedOrCheckedRecordByAdmin';
+        this.m_status_uploaded_by_guest_to_homepage = 'UploadedRecordByGuestToHomepage';
 
         // Loads the XML object for aapplication file and calls the function m_callback_function_name
         this.loadOneXmlFile(this, this.getXmlJazzGuestsFileName(), this.m_callback_function_name);
@@ -174,10 +174,10 @@ class JazzGuestsXml
         
     } // getGuestStatus
 
-    // Returns true if the guest record status is uploaded by a guest
-    isGuestStatusUploadedByGuest(i_record_number)
+    // Returns true if the guest record status is pending record in XML uploaded
+    isGuestStatusPendingRecordInUpdate(i_record_number)
     {
-        if (this.getGuestStatus(i_record_number) == this.m_status_guest_uploaded)
+        if (this.getGuestStatus(i_record_number) == this.m_status_pending_rec_uploaded)
         {
             return true;
         }
@@ -186,12 +186,12 @@ class JazzGuestsXml
             return false;
         }
 
-    } // isGuestStatusUploadedByGuest
+    } // isGuestStatusPendingRecordInUpdate
 
-    // Returns true if the guest record status is added by an administrator
-    isGuestStatusAddedByAdmin(i_record_number)
+    // Returns true if the guest record status is added or checked by an administrator
+    isGuestStatusAddedOrCheckedByAdmin(i_record_number)
     {
-        if (this.getGuestStatus(i_record_number) == this.m_status_admin_added)
+        if (this.getGuestStatus(i_record_number) == this.m_status_admin_added_or_checked)
         {
             return true;
         }
@@ -200,12 +200,12 @@ class JazzGuestsXml
             return false;
         }
 
-    } // isGuestStatusAddedByAdmin
+    } // isGuestStatusAddedOrCheckedByAdmin
 
-    // Returns true if the guest record status is uploaded to homepage
-    isGuestStatusUploadedToHomepage(i_record_number)
+    // Returns true if the guest record status is uploaded by guest directly to homepage
+    isGuestStatusUploadedByGuestToHomepage(i_record_number)
     {
-        if (this.getGuestStatus(i_record_number) == this.m_status_uploaded_homepage)
+        if (this.getGuestStatus(i_record_number) == this.m_status_uploaded_by_guest_to_homepage)
         {
             return true;
         }
@@ -214,7 +214,7 @@ class JazzGuestsXml
             return false;
         }
 
-    } // isGuestStatusUploadedToHomepage
+    } // isGuestStatusUploadedByGuestToHomepage
 
     // Returns the guest record publish flag as string
     getGuestPublish(i_record_number)
@@ -369,26 +369,26 @@ class JazzGuestsXml
         
    } // setGuestStatus  
 
-   // Sets the guest record status to uploaded by a guest
-   setGuestStatusUploadedByGuest(i_record_number)
+   // Sets the guest record status to pending record in XMK update
+   setGuestStatusPendingRecordInUpdate(i_record_number)
    {
-        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_guest_uploaded);
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_pending_rec_uploaded);
         
-   } // setGuestStatusUploadedByGuest  
+   } // setGuestStatusPendingRecordInUpdate  
 
-   // Sets the guest record status to added by an administrator
-   setGuestStatusAddedByAdmin(i_record_number)
+   // Sets the guest record status to added or checked by an administrator
+   setGuestStatusAddedOrCheckedByAdmin(i_record_number)
    {
-        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_admin_added);
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_admin_added_or_checked);
         
-   } // setGuestStatusAddedByAdmin
+   } // setGuestStatusAddedOrCheckedByAdmin
 
-   // Sets the guest record status to uploaded to homepage
-   setGuestStatusUploadedToHomepage(i_record_number)
+   // Sets the guest record status to uploaded directly to homepage by guest
+   setGuestStatusUploadedByGuestToHomepage(i_record_number)
    {
-        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_uploaded_homepage);
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_uploaded_by_guest_to_homepage);
         
-   } // setGuestStatusUploadedToHomepage
+   } // setGuestStatusUploadedByGuestToHomepage
 
    // Sets the guest record publish flag as string
    setGuestPublish(i_record_number, i_node_value)

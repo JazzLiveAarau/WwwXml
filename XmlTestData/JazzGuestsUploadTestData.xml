@@ -1,82 +1,156 @@
 <?xml version= "1.0" encoding="utf-8"?>
-<!--  JAZZ live AARAU guests. Uploaded images -->  
+<!-- This XML file is created from an XML object by the function xmlToFormattedString -->
 <HomepageJazzGuests>
-	<JazzGuest>
-		<JazzGuestYear>RecordOne</JazzGuestYear>
-		<JazzGuestMonth>RecordOne</JazzGuestMonth>
-		<JazzGuestDay>RecordOne</JazzGuestDay>
-		<JazzGuestBand>RecordOne</JazzGuestBand>
-		<JazzGuestMusicians>RecordOne</JazzGuestMusicians>
-		<JazzGuestHeader>RecordOne</JazzGuestHeader>
-		<JazzGuestText>RecordOne</JazzGuestText>
-		<JazzGuestNames>RecordOne</JazzGuestNames>
-		<JazzGuestRemark>RecordOne</JazzGuestRemark>
-		<JazzGuestFileName>RecordOne</JazzGuestFileName>
-		<JazzGuestFileType>RecordOne</JazzGuestFileType>
-		<JazzGuestAvatar>RecordOne</JazzGuestAvatar>
-		<JazzGuestEmail>RecordOne</JazzGuestEmail>
-		<JazzGuestTelephone>RecordOne</JazzGuestTelephone>
-		<JazzGuestStatus>RecordOne</JazzGuestStatus>
-		<JazzGuestPublish>RecordOne</JazzGuestPublish>
-		<JazzGuestRegNumber>RecordOne</JazzGuestRegNumber>
-	</JazzGuest>
-	<JazzGuest>
-		<JazzGuestYear>RecordTwo</JazzGuestYear>
-		<JazzGuestMonth>RecordTwo</JazzGuestMonth>
-		<JazzGuestDay>RecordTwo</JazzGuestDay>
-		<JazzGuestBand>RecordTwo</JazzGuestBand>
-		<JazzGuestMusicians>RecordTwo</JazzGuestMusicians>
-		<JazzGuestHeader>RecordTwo</JazzGuestHeader>
-		<JazzGuestText>RecordTwo</JazzGuestText>
-		<JazzGuestNames>RecordTwo</JazzGuestNames>
-		<JazzGuestRemark>RecordTwo</JazzGuestRemark>
-		<JazzGuestFileName>RecordTwo</JazzGuestFileName>
-		<JazzGuestFileType>RecordTwo</JazzGuestFileType>
-		<JazzGuestAvatar>RecordTwo</JazzGuestAvatar>
-		<JazzGuestEmail>RecordTwo</JazzGuestEmail>
-		<JazzGuestTelephone>RecordTwo</JazzGuestTelephone>
-		<JazzGuestStatus>RecordTwo</JazzGuestStatus>
-		<JazzGuestPublish>RecordTwo</JazzGuestPublish>
-		<JazzGuestRegNumber>RecordTwo</JazzGuestRegNumber>
-	</JazzGuest>
-	<JazzGuest>
-		<JazzGuestYear>2023</JazzGuestYear>
-		<JazzGuestMonth>12</JazzGuestMonth>
-		<JazzGuestDay>08</JazzGuestDay>
-		<JazzGuestBand>Band Xyz</JazzGuestBand>
-		<JazzGuestMusicians>Gustav Xyz, Pelle MNo, Sofia Qwe</JazzGuestMusicians>
-		<JazzGuestHeader>Header Text Bild 2 ....</JazzGuestHeader>
-		<JazzGuestText>Wir haben das Konzert sehr schön gefunden</JazzGuestText>
-		<JazzGuestNames>Gianin Widmer</JazzGuestNames>
-		<JazzGuestRemark>Eine Bemerkung ....</JazzGuestRemark>
-		<JazzGuestFileName>JazzGuests/Uploaded/d20231208_TestBild_1.jpg</JazzGuestFileName>
-		<JazzGuestFileType>IMG</JazzGuestFileType>
-		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
-		<JazzGuestEmail>guest.one@gmail.com</JazzGuestEmail>
-		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
-		<JazzGuestPublish>TRUE</JazzGuestPublish>
-		<JazzGuestRegNumber>NotYetSetNodeValue</JazzGuestRegNumber>
-	</JazzGuest>
-	<JazzGuest>
-		<JazzGuestYear>2023</JazzGuestYear>
-		<JazzGuestMonth>12</JazzGuestMonth>
-		<JazzGuestDay>09</JazzGuestDay>
-		<JazzGuestBand>Band Klm</JazzGuestBand>
-		<JazzGuestMusicians>Peter Xxxx, Markus Mno, Thomas Qwe</JazzGuestMusicians>
-		<JazzGuestHeader>Bildtext vom Publikum für Bild 2</JazzGuestHeader>
-		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
-		<JazzGuestNames>NotYetSetNodeValue</JazzGuestNames>
-		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
-		<JazzGuestFileName>JazzGuests/Uploaded/d20231209_TestBild_2.jpg</JazzGuestFileName>
-		<JazzGuestFileType>IMG</JazzGuestFileType>
-		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
-		<JazzGuestEmail>guest.two@bluewin.ch</JazzGuestEmail>
-		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
-		<JazzGuestPublish>TRUE</JazzGuestPublish>
-		<JazzGuestRegNumber>NotYetSetNodeValue</JazzGuestRegNumber>
-	</JazzGuest>
-
-
-</HomepageJazzGuests>	
+    <JazzGuest>
+        <JazzGuestYear>2023</JazzGuestYear>
+        <JazzGuestMonth>12</JazzGuestMonth>
+        <JazzGuestDay>8</JazzGuestDay>
+        <JazzGuestBand>Band Xyz</JazzGuestBand>
+        <JazzGuestMusicians>Gustav Xyz, Pelle MNo, Sofia Qwe</JazzGuestMusicians>
+        <JazzGuestHeader>Header Text Bild 2 ....</JazzGuestHeader>
+        <JazzGuestText>Wir haben das Konzert sehr schön gefunden</JazzGuestText>
+        <JazzGuestNames>Gianin Widmer</JazzGuestNames>
+        <JazzGuestRemark>Eine Bemerkung ....</JazzGuestRemark>
+        <JazzGuestFileName>JazzGuests/Uploaded/d20231208_TestBild.jpg</JazzGuestFileName>
+        <JazzGuestFileType>IMG</JazzGuestFileType>
+        <JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+        <JazzGuestEmail>guest.one@gmail.com</JazzGuestEmail>
+        <JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+        <JazzGuestStatus>PendingRecordInUploaded</JazzGuestStatus>
+        <JazzGuestPublish>TRUE</JazzGuestPublish>
+        <JazzGuestRegNumber>NotYetSetNodeValue</JazzGuestRegNumber>
+    </JazzGuest>
+    <JazzGuest>
+        <JazzGuestYear>2023</JazzGuestYear>
+        <JazzGuestMonth>12</JazzGuestMonth>
+        <JazzGuestDay>9</JazzGuestDay>
+        <JazzGuestBand>Band Klm</JazzGuestBand>
+        <JazzGuestMusicians>Peter Xxxx, Markus Mno, Thomas Qwe</JazzGuestMusicians>
+        <JazzGuestHeader>Bildtext vom Publikum für Bild 2</JazzGuestHeader>
+        <JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+        <JazzGuestNames>NotYetSetNodeValue</JazzGuestNames>
+        <JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+        <JazzGuestFileName>JazzGuests/Uploaded/d20231209_TestBild.jpg</JazzGuestFileName>
+        <JazzGuestFileType>IMG</JazzGuestFileType>
+        <JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+        <JazzGuestEmail>guest.two@bluewin.ch</JazzGuestEmail>
+        <JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+        <JazzGuestStatus>PendingRecordInUploaded</JazzGuestStatus>
+        <JazzGuestPublish>TRUE</JazzGuestPublish>
+        <JazzGuestRegNumber>NotYetSetNodeValue</JazzGuestRegNumber>
+    </JazzGuest>
+    <JazzGuest>
+        <JazzGuestYear>2024</JazzGuestYear>
+        <JazzGuestMonth>01</JazzGuestMonth>
+        <JazzGuestDay>18</JazzGuestDay>
+        <JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
+        <JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
+        <JazzGuestHeader>Min bildtext</JazzGuestHeader>
+        <JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+        <JazzGuestNames>Gunnar Liden</JazzGuestNames>
+        <JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+        <JazzGuestFileName>JazzGuests/Uploaded/Image_20240118170142.jpg</JazzGuestFileName>
+        <JazzGuestFileType>IMG</JazzGuestFileType>
+        <JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+        <JazzGuestEmail>gunnar.liden@viewsoncad.ch</JazzGuestEmail>
+        <JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+        <JazzGuestStatus>PendingRecordInUploaded</JazzGuestStatus>
+        <JazzGuestPublish>TRUE</JazzGuestPublish>
+        <JazzGuestRegNumber>Will be set when moved to JazzGuests.xml</JazzGuestRegNumber>
+    </JazzGuest>
+    <JazzGuest>
+        <JazzGuestYear>2023</JazzGuestYear>
+        <JazzGuestMonth>10</JazzGuestMonth>
+        <JazzGuestDay>21</JazzGuestDay>
+        <JazzGuestBand>Dominik Schürmann Trio feat. Max Ionata</JazzGuestBand>
+        <JazzGuestMusicians>Max Ionata, Yuri Storione, Dominik Schürmann, Jãnis Jaunalksnis</JazzGuestMusicians>
+        <JazzGuestHeader>Min bildetxt</JazzGuestHeader>
+        <JazzGuestText>Somme additional text</JazzGuestText>
+        <JazzGuestNames>Gunnar Liden</JazzGuestNames>
+        <JazzGuestRemark>och en anmärkning</JazzGuestRemark>
+        <JazzGuestFileName>JazzGuests/Uploaded/Image_20240118182231.jpg</JazzGuestFileName>
+        <JazzGuestFileType>IMG</JazzGuestFileType>
+        <JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+        <JazzGuestEmail>gunnar.liden@viewsoncad.ch</JazzGuestEmail>
+        <JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+        <JazzGuestStatus>PendingRecordInUploaded</JazzGuestStatus>
+        <JazzGuestPublish>TRUE</JazzGuestPublish>
+        <JazzGuestRegNumber>Will be set when moved to JazzGuests.xml</JazzGuestRegNumber>
+    </JazzGuest>
+    <JazzGuest>
+        <JazzGuestYear>2024</JazzGuestYear>
+        <JazzGuestMonth>1</JazzGuestMonth>
+        <JazzGuestDay>18</JazzGuestDay>
+        <JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
+        <JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
+        <JazzGuestHeader>Bysholmen</JazzGuestHeader>
+        <JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+        <JazzGuestNames>Gunnar Liden</JazzGuestNames>
+        <JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+        <JazzGuestFileName>JazzGuests/Uploaded/Image_20240118184024.jpg</JazzGuestFileName>
+        <JazzGuestFileType>IMG</JazzGuestFileType>
+        <JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+        <JazzGuestEmail>gunnar.liden@viewsoncad.ch</JazzGuestEmail>
+        <JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+        <JazzGuestStatus>PendingRecordInUploaded</JazzGuestStatus>
+        <JazzGuestPublish>TRUE</JazzGuestPublish>
+        <JazzGuestRegNumber>Will be set when moved to JazzGuests.xml</JazzGuestRegNumber>
+    </JazzGuest>
+    <JazzGuest>
+        <JazzGuestYear>2024</JazzGuestYear>
+        <JazzGuestMonth>1</JazzGuestMonth>
+        <JazzGuestDay>18</JazzGuestDay>
+        <JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
+        <JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
+        <JazzGuestHeader>Bootshaus</JazzGuestHeader>
+        <JazzGuestText>Bild von Skottviken</JazzGuestText>
+        <JazzGuestNames>Gunnar Liden</JazzGuestNames>
+        <JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+        <JazzGuestFileName>JazzGuests/Uploaded/Image_20240118185411.jpg</JazzGuestFileName>
+        <JazzGuestFileType>IMG</JazzGuestFileType>
+        <JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+        <JazzGuestEmail>gunnar.liden@viewsoncad.ch</JazzGuestEmail>
+        <JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+        <JazzGuestStatus>PendingRecordInUploaded</JazzGuestStatus>
+        <JazzGuestPublish>TRUE</JazzGuestPublish>
+        <JazzGuestRegNumber>Will be set when moved to JazzGuests.xml</JazzGuestRegNumber>
+    </JazzGuest>
+    <JazzGuest>
+        <JazzGuestYear>2024</JazzGuestYear>
+        <JazzGuestMonth>1</JazzGuestMonth>
+        <JazzGuestDay>18</JazzGuestDay>
+        <JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
+        <JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
+        <JazzGuestHeader>Sängerin</JazzGuestHeader>
+        <JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+        <JazzGuestNames>Gunnar Liden</JazzGuestNames>
+        <JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+        <JazzGuestFileName>JazzGuests/Uploaded/Image_20240118190303.jpg</JazzGuestFileName>
+        <JazzGuestFileType>IMG</JazzGuestFileType>
+        <JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+        <JazzGuestEmail>gunnar.liden@viewsoncad.ch</JazzGuestEmail>
+        <JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+        <JazzGuestStatus>PendingRecordInUploaded</JazzGuestStatus>
+        <JazzGuestPublish>TRUE</JazzGuestPublish>
+        <JazzGuestRegNumber>Will be set when moved to JazzGuests.xml</JazzGuestRegNumber>
+    </JazzGuest>
+    <JazzGuest>
+        <JazzGuestYear>2024</JazzGuestYear>
+        <JazzGuestMonth>1</JazzGuestMonth>
+        <JazzGuestDay>18</JazzGuestDay>
+        <JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
+        <JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
+        <JazzGuestHeader>Speicher in Gränichen</JazzGuestHeader>
+        <JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+        <JazzGuestNames>Gunnar Lidén</JazzGuestNames>
+        <JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+        <JazzGuestFileName>JazzGuests/Uploaded/Image_20240118190652.jpg</JazzGuestFileName>
+        <JazzGuestFileType>IMG</JazzGuestFileType>
+        <JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+        <JazzGuestEmail>gunnar.liden@viewsoncad.ch</JazzGuestEmail>
+        <JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+        <JazzGuestStatus>PendingRecordInUploaded</JazzGuestStatus>
+        <JazzGuestPublish>TRUE</JazzGuestPublish>
+        <JazzGuestRegNumber>Will be set when moved to JazzGuests.xml</JazzGuestRegNumber>
+    </JazzGuest>
+</HomepageJazzGuests>

@@ -17,7 +17,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>1</JazzGuestRegNumber>
 	</JazzGuest>
@@ -36,7 +36,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>2</JazzGuestRegNumber>
 	</JazzGuest>
@@ -55,7 +55,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>3</JazzGuestRegNumber>
 	</JazzGuest>
@@ -74,7 +74,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>4</JazzGuestRegNumber>
 	</JazzGuest>
@@ -93,7 +93,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>5</JazzGuestRegNumber>
 	</JazzGuest>
@@ -112,7 +112,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>6</JazzGuestRegNumber>
 	</JazzGuest>
@@ -131,7 +131,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>7</JazzGuestRegNumber>
 	</JazzGuest>
@@ -150,7 +150,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>8</JazzGuestRegNumber>
 	</JazzGuest>
@@ -169,7 +169,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>9</JazzGuestRegNumber>
 	</JazzGuest>
@@ -188,7 +188,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>10</JazzGuestRegNumber>
 	</JazzGuest>
@@ -207,7 +207,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>11</JazzGuestRegNumber>
 	</JazzGuest>
@@ -226,7 +226,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>12</JazzGuestRegNumber>
 	</JazzGuest>
@@ -245,7 +245,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>13</JazzGuestRegNumber>
 	</JazzGuest>
@@ -264,7 +264,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>14</JazzGuestRegNumber>
 	</JazzGuest>
@@ -283,7 +283,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>15</JazzGuestRegNumber>
 	</JazzGuest>
@@ -302,7 +302,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>16</JazzGuestRegNumber>
 	</JazzGuest>
@@ -321,7 +321,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>17</JazzGuestRegNumber>
 	</JazzGuest>
@@ -340,7 +340,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>18</JazzGuestRegNumber>
 	</JazzGuest>
@@ -359,7 +359,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>19</JazzGuestRegNumber>
 	</JazzGuest>
@@ -378,7 +378,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>20</JazzGuestRegNumber>
 	</JazzGuest>
@@ -397,7 +397,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>21</JazzGuestRegNumber>
 	</JazzGuest>
@@ -416,7 +416,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>22</JazzGuestRegNumber>
 	</JazzGuest>
@@ -435,7 +435,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>23</JazzGuestRegNumber>
 	</JazzGuest>
@@ -454,7 +454,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>24</JazzGuestRegNumber>
 	</JazzGuest>
@@ -473,7 +473,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>25</JazzGuestRegNumber>
 	</JazzGuest>
@@ -492,7 +492,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>26</JazzGuestRegNumber>
 	</JazzGuest>
@@ -511,7 +511,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>27</JazzGuestRegNumber>
 	</JazzGuest>
@@ -530,7 +530,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>28</JazzGuestRegNumber>
 	</JazzGuest>
@@ -549,7 +549,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>29</JazzGuestRegNumber>
 	</JazzGuest>
@@ -568,7 +568,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>30</JazzGuestRegNumber>
 	</JazzGuest>
@@ -587,7 +587,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>31</JazzGuestRegNumber>
 	</JazzGuest>
@@ -606,7 +606,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>32</JazzGuestRegNumber>
 	</JazzGuest>
@@ -625,7 +625,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>33</JazzGuestRegNumber>
 	</JazzGuest>
@@ -644,7 +644,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>34</JazzGuestRegNumber>
 	</JazzGuest>
@@ -663,7 +663,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>35</JazzGuestRegNumber>
 	</JazzGuest>
@@ -682,7 +682,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>36</JazzGuestRegNumber>
 	</JazzGuest>
@@ -701,7 +701,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>37</JazzGuestRegNumber>
 	</JazzGuest>
@@ -720,7 +720,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>38</JazzGuestRegNumber>
 	</JazzGuest>
@@ -739,7 +739,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>39</JazzGuestRegNumber>
 	</JazzGuest>
@@ -758,7 +758,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>40</JazzGuestRegNumber>
 	</JazzGuest>
@@ -777,7 +777,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>41</JazzGuestRegNumber>
 	</JazzGuest>
@@ -796,7 +796,7 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>42</JazzGuestRegNumber>
 	</JazzGuest>
@@ -815,72 +815,66 @@
 		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
 		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
 		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
+		<JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
 		<JazzGuestPublish>TRUE</JazzGuestPublish>
 		<JazzGuestRegNumber>43</JazzGuestRegNumber>
 	</JazzGuest>
-	
-	<!--
-	<JazzGuest>
-		<JazzGuestYear>2015</JazzGuestYear>
-		<JazzGuestMonth9</JazzGuestMonth>
-		<JazzGuestDay>19</JazzGuestDay>
-		<JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
-		<JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
-		<JazzGuestHeader>Jubiläum 15 Jahre</JazzGuestHeader>
-		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
-		<JazzGuestNames>Georges Weiersmüller</JazzGuestNames>
-		<JazzGuestRemark>19.09.2015 </JazzGuestRemark>
-		<JazzGuestFileName>JazzGuests/d20150919_Jubilaeum15GeorgesWeiersmueller.png</JazzGuestFileName>
-		<JazzGuestFileType>IMG</JazzGuestFileType>
-		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
-		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
-		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
-		<JazzGuestPublish>TRUE</JazzGuestPublish>
-		<JazzGuestRegNumber>XX</JazzGuestRegNumber>
-	</JazzGuest>
-	<JazzGuest>
-		<JazzGuestYear>2018</JazzGuestYear>
-		<JazzGuestMonth>11</JazzGuestMonth>
-		<JazzGuestDay>3</JazzGuestDay>
-		<JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
-		<JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
-		<JazzGuestHeader>Marc Hunziker Trio</JazzGuestHeader>
-		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
-		<JazzGuestNames>Flügeltransport</JazzGuestNames>
-		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
-		<JazzGuestFileName>JazzGuests/d20181103_Marc_Hunziker_FluegelTransport.mp4</JazzGuestFileName>
-		<JazzGuestFileType>IMG</JazzGuestFileType>
-		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
-		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
-		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
-		<JazzGuestPublish>TRUE</JazzGuestPublish>
-		<JazzGuestRegNumber>XX</JazzGuestRegNumber>
-	</JazzGuest>
-		
-		
-	
-	<JazzGuest>
-		<JazzGuestYear>NotYetSetNodeValue</JazzGuestYear>
-		<JazzGuestMonth>NotYetSetNodeValue</JazzGuestMonth>
-		<JazzGuestDay>NotYetSetNodeValue</JazzGuestDay>
-		<JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
-		<JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
-		<JazzGuestHeader>NotYetSetNodeValue</JazzGuestHeader>
-		<JazzGuestText>NotYetSetNodeValue</JazzGuestText>
-		<JazzGuestNames>NotYetSetNodeValue</JazzGuestNames>
-		<JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
-		<JazzGuestFileName>NotYetSetNodeValue</JazzGuestFileName>
-		<JazzGuestFileType>IMG</JazzGuestFileType>
-		<JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
-		<JazzGuestEmail>NotYetSetNodeValue</JazzGuestEmail>
-		<JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
-		<JazzGuestStatus>NotYetSetNodeValue</JazzGuestStatus>
-		<JazzGuestPublish>TRUE</JazzGuestPublish>
-		<JazzGuestRegNumber>XX</JazzGuestRegNumber>
-	</JazzGuest>
-	-->
+    <JazzGuest>
+        <JazzGuestYear>2023</JazzGuestYear>
+        <JazzGuestMonth>12</JazzGuestMonth>
+        <JazzGuestDay>8</JazzGuestDay>
+        <JazzGuestBand>Band Xyz</JazzGuestBand>
+        <JazzGuestMusicians>Gustav Xyz, Pelle MNo, Sofia Qwe</JazzGuestMusicians>
+        <JazzGuestHeader>Header Text Bild 2 ....</JazzGuestHeader>
+        <JazzGuestText>Wir haben das Konzert sehr schön gefunden</JazzGuestText>
+        <JazzGuestNames>Gianin Widmer</JazzGuestNames>
+        <JazzGuestRemark>Eine Bemerkung ....</JazzGuestRemark>
+        <JazzGuestFileName>JazzGuests/d20231208_TestBild.jpg</JazzGuestFileName>
+        <JazzGuestFileType>IMG</JazzGuestFileType>
+        <JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+        <JazzGuestEmail>guest.one@gmail.com</JazzGuestEmail>
+        <JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+        <JazzGuestStatus>UploadedRecordByGuestToHomepage</JazzGuestStatus>
+        <JazzGuestPublish>TRUE</JazzGuestPublish>
+        <JazzGuestRegNumber>44</JazzGuestRegNumber>
+    </JazzGuest>
+    <JazzGuest>
+        <JazzGuestYear>2023</JazzGuestYear>
+        <JazzGuestMonth>12</JazzGuestMonth>
+        <JazzGuestDay>9</JazzGuestDay>
+        <JazzGuestBand>Band Klm</JazzGuestBand>
+        <JazzGuestMusicians>Peter Xxxx, Markus Mno, Thomas Qwe</JazzGuestMusicians>
+        <JazzGuestHeader>Bildtext vom Publikum für Bild 2</JazzGuestHeader>
+        <JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+        <JazzGuestNames>NotYetSetNodeValue</JazzGuestNames>
+        <JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+        <JazzGuestFileName>JazzGuests/d20231209_TestBild.jpg</JazzGuestFileName>
+        <JazzGuestFileType>IMG</JazzGuestFileType>
+        <JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+        <JazzGuestEmail>guest.two@bluewin.ch</JazzGuestEmail>
+        <JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+        <JazzGuestStatus>UploadedRecordByGuestToHomepage</JazzGuestStatus>
+        <JazzGuestPublish>TRUE</JazzGuestPublish>
+        <JazzGuestRegNumber>45</JazzGuestRegNumber>
+    </JazzGuest>
+    <JazzGuest>
+        <JazzGuestYear>2024</JazzGuestYear>
+        <JazzGuestMonth>01</JazzGuestMonth>
+        <JazzGuestDay>18</JazzGuestDay>
+        <JazzGuestBand>NotYetSetNodeValue</JazzGuestBand>
+        <JazzGuestMusicians>NotYetSetNodeValue</JazzGuestMusicians>
+        <JazzGuestHeader>Test uploaded admin</JazzGuestHeader>
+        <JazzGuestText>NotYetSetNodeValue</JazzGuestText>
+        <JazzGuestNames>Gunnar Liden</JazzGuestNames>
+        <JazzGuestRemark>NotYetSetNodeValue</JazzGuestRemark>
+        <JazzGuestFileName>JazzGuests/d20240118_TestBild.jpg</JazzGuestFileName>
+        <JazzGuestFileType>IMG</JazzGuestFileType>
+        <JazzGuestAvatar>NotYetSetNodeValue</JazzGuestAvatar>
+        <JazzGuestEmail>gunnar.liden@viewsoncad.ch</JazzGuestEmail>
+        <JazzGuestTelephone>NotYetSetNodeValue</JazzGuestTelephone>
+        <JazzGuestStatus>AddedOrCheckedRecordByAdmin</JazzGuestStatus>
+        <JazzGuestPublish>TRUE</JazzGuestPublish>
+        <JazzGuestRegNumber>46</JazzGuestRegNumber>
+    </JazzGuest>
 
 </HomepageJazzGuests>	

@@ -1,5 +1,5 @@
 // File: JazzGuestsXml.js
-// Date: 2024-01-20
+// Date: 2024-01-22
 // Author: Gunnar Lidén
 
 // File content
@@ -44,12 +44,45 @@ class JazzGuestsXml
         // Status strings
         this.m_status_pending_rec_uploaded = 'PendingRecordInUploaded';
         this.m_status_admin_added_or_checked = 'AddedOrCheckedRecordByAdmin';
+        this.m_status_test_admin_added_or_checked = 'TEST_AddedOrCheckedRecordByAdmin';
         this.m_status_uploaded_by_guest_to_homepage = 'UploadedRecordByGuestToHomepage';
+
+        // Status strings description
+        this.m_status_pending_rec_uploaded_description = 'User uploaded to JazzGuestsLoaded.xml. Admin uploads to homepage';
+        this.m_status_admin_added_or_checked_description = 'Admin has moved from JazzGuestsLoaded.xml or added directly';
+        this.m_status_test_admin_added_or_checked_description = 'TEST Admin has moved from JazzGuestsLoaded.xml or added directly';
+        this.m_status_uploaded_by_guest_to_homepage_description = 'User uploaded to JazzGuests.xml. Admin checks record';        
 
         // Loads the XML object for aapplication file and calls the function m_callback_function_name
         this.loadOneXmlFile(this, this.getXmlJazzGuestsFileName(), this.m_callback_function_name);
 
     } // constructor
+
+    // Returns the status description for a given status key
+    getStatusDescription(i_status_key)
+    {
+        if (i_status_key == this.m_status_pending_rec_uploaded)
+        {
+            return this.m_status_pending_rec_uploaded_description;
+        }
+        else if (i_status_key == this.m_status_admin_added_or_checked)
+        {
+            return this.m_status_admin_added_or_checked_description;
+        }
+        else if (i_status_key == this.m_status_test_admin_added_or_checked)
+        {
+            return this.m_status_test_admin_added_or_checked_description;
+        }
+        else if (i_status_key == this.m_status_uploaded_by_guest_to_homepage)
+        {
+            return this.m_status_uploaded_by_guest_to_homepage_description;
+        }
+        else
+        {
+            return 'No description of status key= ' + i_status_key;
+        }
+
+    } // getStatusDescription
 
     // Sets the XML object
     setXmlObject(i_object_xml)
@@ -201,6 +234,20 @@ class JazzGuestsXml
         }
 
     } // isGuestStatusAddedOrCheckedByAdmin
+
+    // Returns true if the guest record status is TEST added or checked by an administrator 
+    isGuestStatusTestAddedOrCheckedByAdmin(i_record_number)
+    {
+        if (this.getGuestStatus(i_record_number) == this.m_status_test_admin_added_or_checked)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    } // isGuestStatusTestAddedOrCheckedByAdmin
 
     // Returns true if the guest record status is uploaded by guest directly to homepage
     isGuestStatusUploadedByGuestToHomepage(i_record_number)
@@ -389,6 +436,13 @@ class JazzGuestsXml
         return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_uploaded_by_guest_to_homepage);
         
    } // setGuestStatusUploadedByGuestToHomepage
+
+   // Sets the guest record status to TEST added or checked by an administrator
+   setGuestStatusTestAddedOrCheckedByAdmin(i_record_number)
+   {
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_test_admin_added_or_checked);
+        
+   } // setGuestStatusTestAddedOrCheckedByAdmin	
 
    // Sets the guest record publish flag as string
    setGuestPublish(i_record_number, i_node_value)

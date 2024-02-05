@@ -1,5 +1,5 @@
 // File: Main.js
-// Date: 2023-12-19
+// Date: 2024-02-05
 // Author: Gunnar Lidén
 
 // Inhalt
@@ -37,7 +37,40 @@ function initTestXml()
     
     g_application_xml = new JazzApplicationXml(callbackApplicationXml, n_level_xml); 
 
+    // testUtilXml();
+
 } // initTestControls
+
+function testUtilXml()
+{
+    var input_str = 'Some text Hennes & Mauritz. A limit Something >= 24 and < 122. A string inside a string. Somebody said "I am the greatest".';
+
+    var already_escaped_str = 'Some text Hennes &amp; Mauritz. A limit Something &gt;= 24 and &lt; 122. A string inside a string. Somebody said &quot;I am the greatest&quot;.'
+
+    var input_apostroph_str = "Some text Hennes & Mauritz. A limit Something >= 24 and < 122. A string inside a string. Somebody said 'I am the greatest'.";
+
+
+    var escaped_str = UtilXml.escapeString(input_str);
+    //var escaped_str = UtilXml.escapeString(already_escaped_str);
+    //var escaped_str = UtilXml.escapeString(input_apostroph_str); Works but strings not equal  (input_str != unescaped_str) Diff: ' and "
+
+    alert(escaped_str);
+
+    var unescaped_str = UtilXml.unescapeString(escaped_str);
+
+    if (input_str != unescaped_str)
+    {
+        alert("TestUtil Error Cannot convert back");
+
+        console.log(input_str);
+        console.log(unescaped_str);
+    }
+    else
+    {
+        alert("TestUtil  Conversion back is OK ");
+    }
+
+} // testUtilXml
 
 // Callback function after the creation of the application XML object
 function callbackApplicationXml()

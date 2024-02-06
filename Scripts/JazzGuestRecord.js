@@ -1,5 +1,5 @@
 // File: JazzGuestRecord.js
-// Date: 2023-12-16
+// Date: 2024-02-06
 // Author: Gunnar Lidén
 
 // File content
@@ -359,11 +359,19 @@ class JazzGuest
     // i_record_number:    Guest record number
     setJazzGuestRecord(i_guest_xml_object, i_record_number)
     {
-        this.setHeader(i_guest_xml_object.getGuestHeader(i_record_number));
+        var unescape_str = '';
 
-        this.setText(i_guest_xml_object.getGuestText(i_record_number));
+        unescape_str = UtilXml.unescapeString(i_guest_xml_object.getGuestHeader(i_record_number));
 
-        this.SetNames(i_guest_xml_object.getGuestNames(i_record_number));
+        this.setHeader(unescape_str);
+
+        unescape_str = UtilXml.unescapeString(i_guest_xml_object.getGuestText(i_record_number));
+
+        this.setText(unescape_str);
+
+        unescape_str = UtilXml.unescapeString(i_guest_xml_object.getGuestNames(i_record_number));
+
+        this.SetNames(unescape_str);
 
         this.setFileName(i_guest_xml_object.getGuestFileName(i_record_number));
 
@@ -381,7 +389,9 @@ class JazzGuest
 
         this.setDay(i_guest_xml_object.getGuestDay(i_record_number));
 
-        this.setRemark(i_guest_xml_object.getGuestRemark(i_record_number));
+        unescape_str = UtilXml.unescapeString(i_guest_xml_object.getGuestRemark(i_record_number));
+
+        this.setRemark(unescape_str);
 
         this.setAvatar(i_guest_xml_object.getGuestAvatar(i_record_number));
 
@@ -400,11 +410,19 @@ class JazzGuest
     // i_record_number:    Guest record number
     setXmlJazzGuestRecord(i_guest_xml_object, i_record_number)
     {
-        i_guest_xml_object.setGuestHeader(i_record_number, this.getHeader());
+        var escape_str = '';
 
-        i_guest_xml_object.setGuestText(i_record_number, this.getText());
+        escape_str = UtilXml.escapeString(i_record_number, this.getHeader());
 
-        i_guest_xml_object.setGuestNames(i_record_number, this.getNames());
+        i_guest_xml_object.setGuestHeader(escape_str);
+
+        escape_str = UtilXml.escapeString(i_record_number, this.getText());
+
+        i_guest_xml_object.setGuestText(escape_str);
+
+        escape_str = UtilXml.escapeString(i_record_number, this.getNames());
+
+        i_guest_xml_object.setGuestNames(escape_str);
 
         i_guest_xml_object.setGuestFileName(i_record_number, this.getFileName());
 
@@ -422,7 +440,9 @@ class JazzGuest
 
         i_guest_xml_object.setGuestDay(i_record_number, this.getDay());
 
-        i_guest_xml_object.setGuestRemark(i_record_number, this.getRemark());
+        escape_str = UtilXml.escapeString(i_record_number, this.getRemark());
+
+        i_guest_xml_object.setGuestRemark(escape_str);
 
         i_guest_xml_object.setGuestAvatar(i_record_number, this.getAvatar());
 

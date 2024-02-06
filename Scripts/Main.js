@@ -1,5 +1,5 @@
 // File: Main.js
-// Date: 2024-02-05
+// Date: 2024-02-06
 // Author: Gunnar Lidén
 
 // Inhalt
@@ -117,6 +117,12 @@ function callbackGuestsXml()
     jazz_guest_rec.setRegNumber('10');
 
     jazz_guest_rec.appendXmlJazzGuestRecord(g_jazz_guests_xml);
+
+    var jazz_guest_rec_two = new JazzGuest();
+
+    jazz_guest_rec_two.setJazzGuestRecord(g_jazz_guests_xml, record_number);
+
+    var b_equal = JazzGuest.recordsAreEqual(jazz_guest_rec, jazz_guest_rec_two);
 
     displayXmlObject();
 

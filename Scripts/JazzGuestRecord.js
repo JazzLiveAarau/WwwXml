@@ -412,17 +412,17 @@ class JazzGuest
     {
         var escape_str = '';
 
-        escape_str = UtilXml.escapeString(i_record_number, this.getHeader());
+        escape_str = UtilXml.escapeString(this.getHeader());
 
-        i_guest_xml_object.setGuestHeader(escape_str);
+        i_guest_xml_object.setGuestHeader(i_record_number, escape_str);
 
-        escape_str = UtilXml.escapeString(i_record_number, this.getText());
+        escape_str = UtilXml.escapeString(this.getText());
 
-        i_guest_xml_object.setGuestText(escape_str);
+        i_guest_xml_object.setGuestText(i_record_number, escape_str);
 
-        escape_str = UtilXml.escapeString(i_record_number, this.getNames());
+        escape_str = UtilXml.escapeString(this.getNames());
 
-        i_guest_xml_object.setGuestNames(escape_str);
+        i_guest_xml_object.setGuestNames(i_record_number, escape_str);
 
         i_guest_xml_object.setGuestFileName(i_record_number, this.getFileName());
 
@@ -440,9 +440,9 @@ class JazzGuest
 
         i_guest_xml_object.setGuestDay(i_record_number, this.getDay());
 
-        escape_str = UtilXml.escapeString(i_record_number, this.getRemark());
+        escape_str = UtilXml.escapeString(this.getRemark());
 
-        i_guest_xml_object.setGuestRemark(escape_str);
+        i_guest_xml_object.setGuestRemark(i_record_number, escape_str);
 
         i_guest_xml_object.setGuestAvatar(i_record_number, this.getAvatar());
 
@@ -467,6 +467,135 @@ class JazzGuest
         this.setXmlJazzGuestRecord(i_guest_xml_object, n_records);
 
     } // appendXmlJazzGuestRecord
+
+    // Returns true if records are equal
+    static recordsAreEqual(i_rec_one, i_rec_two)
+    {
+        var ret_equal = true;
+
+        if (i_rec_one.m_header != i_rec_two.m_header)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestHeader> not equal");
+        }
+
+        if (i_rec_one.m_text != i_rec_two.m_text)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestText> not equal");
+        }
+
+        if (i_rec_one.m_names != i_rec_two.m_names)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestNames> not equal");
+        }
+
+        if (i_rec_one.m_file_name != i_rec_two.m_file_name)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestFileName> not equal");
+        }   
+
+        if (i_rec_one.m_file_type != i_rec_two.m_file_type)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestFileType> not equal");
+        }   
+
+        if (i_rec_one.m_status != i_rec_two.m_status)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestStatus> not equal");
+        }   
+
+        if (i_rec_one.m_band != i_rec_two.m_band)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestBand> not equal");
+        }   
+
+        if (i_rec_one.m_musicians != i_rec_two.m_musicians)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestMusicians> not equal");
+        }   
+
+        if (i_rec_one.m_year != i_rec_two.m_year)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestYear> not equal");
+        }   
+
+        if (i_rec_one.m_month != i_rec_two.m_month)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestMonth> not equal");
+        }   
+
+        if (i_rec_one.m_day != i_rec_two.m_day)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestDay> not equal");
+        }   
+
+        if (i_rec_one.m_remark != i_rec_two.m_remark)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestRemark> not equal");
+        }   
+
+        if (i_rec_one.m_avatar != i_rec_two.m_avatar)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestAvatar> not equal");
+        }   
+
+        if (i_rec_one.m_email != i_rec_two.m_email)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestEmail> not equal");
+        }   
+
+        if (i_rec_one.m_telephone != i_rec_two.m_telephone)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestTelephone> not equal");
+        }   
+
+        if (i_rec_one.m_publish != i_rec_two.m_publish)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestPublish> not equal");
+        } 
+
+        if (i_rec_one.m_reg_number != i_rec_two.m_reg_number)
+        {
+            ret_equal = false;
+
+            console.log("JazzGuestRecord.recordsAreEqual <JazzGuestRegNumber> not equal");
+        } 
+
+        return ret_equal;
+
+    } // recordsAreEqual
+
 
     ///////////////////////////////////////////////////////////////////////////
     ///////////////////////// End Utility Functions ///////////////////////////

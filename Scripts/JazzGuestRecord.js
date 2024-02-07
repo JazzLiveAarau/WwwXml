@@ -1,5 +1,5 @@
 // File: JazzGuestRecord.js
-// Date: 2024-02-06
+// Date: 2024-02-07
 // Author: Gunnar Lidén
 
 // File content
@@ -228,11 +228,11 @@ class JazzGuest
     } // setText
 
     // Set <JazzGuestNames>
-    SetNames(i_names)
+    setNames(i_names)
     {
         this.m_names = i_names;
 
-    } // SetNames
+    } // setNames
 
     // Set <JazzGuestFileName>
     setFileName(i_file_name)
@@ -371,7 +371,7 @@ class JazzGuest
 
         unescape_str = UtilXml.unescapeString(i_guest_xml_object.getGuestNames(i_record_number));
 
-        this.SetNames(unescape_str);
+        this.setNames(unescape_str);
 
         this.setFileName(i_guest_xml_object.getGuestFileName(i_record_number));
 

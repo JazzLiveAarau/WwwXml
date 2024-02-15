@@ -1,5 +1,5 @@
 // File: PrettyPrintXml.js
-// Date: 2023-10-15
+// Date: 2024-02-15
 // Author: Gunnar Lidén
 
 // Reference:
@@ -23,6 +23,9 @@ class PrettyPrintXml
 
         // Flag telling if the the output string is to be displayed as HTML or Windows
         this.m_pretty_print_b_html = null;
+
+        // Flag telling if debug data shall be written to the console
+        this.m_b_debug_to_console = false;
 
     } // constructor
 
@@ -243,14 +246,7 @@ class PrettyPrintXml
     {
         return ' -->';
         
-    } // endCommentPrettyPrint
-
-    // Displays the input string in the debugger Console
-    debugPrettyPrintToConsoleLog(i_xml_str)
-    {
-        console.log(i_xml_str);
-    
-    } // debugPrettyPrintToConsoleLog    
+    } // endCommentPrettyPrint  
 
     // Convert XML object to string
     xmlToString(i_xml_object)
@@ -269,5 +265,31 @@ class PrettyPrintXml
         }
         
      } // xmlToString    
+
+    // Displays the input string in the debugger Console
+    debugPrettyPrintToConsoleLog(i_xml_str)
+    {
+        if (!this.m_b_debug_to_console)
+        {
+            return;
+        }
+
+        console.log(i_xml_str);
+    
+    } // debugPrettyPrintToConsoleLog  
+
+     // Set flag telling tha debug data shall NOT be written to the console
+     noDebugToConsole()
+     {
+        this.m_b_debug_to_console = false;  
+
+     } // noDebugToConsole
+
+     // Set flag telling tha debug data shall NOT be written to the console
+     writeDebugToConsole()
+     {
+        this.m_b_debug_to_console = true;  
+              
+     } // writeDebugToConsole
 
 } // PrettyPrintXml

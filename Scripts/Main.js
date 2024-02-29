@@ -1,5 +1,5 @@
 // File: Main.js
-// Date: 2024-02-06
+// Date: 2024-02-29
 // Author: Gunnar Lidén
 
 // Inhalt
@@ -33,6 +33,8 @@ var g_jazz_season_xml = null;
 // Main (onload) function for the XML application 
 function initTestXml()
 {
+    // testDates();
+
     var n_level_xml = 1;
     
     g_application_xml = new JazzApplicationXml(callbackApplicationXml, n_level_xml); 
@@ -40,6 +42,37 @@ function initTestXml()
     // testUtilXml();
 
 } // initTestControls
+
+function testDates()
+{
+    var concert_year = 2024;
+
+    var concert_month = 2;
+
+    var concert_day = 29;
+
+    var n_days_to_concert = SeasonXml.numberOfDaysToCurrentDate(concert_year, concert_month, concert_day);
+
+    concert_year = 2024;
+
+    concert_month = 2;
+
+    concert_day = 28;
+
+    n_days_to_concert_one_before = SeasonXml.numberOfDaysToCurrentDate(concert_year, concert_month, concert_day);
+
+    concert_year = 2024;
+
+    concert_month = 3;
+
+    concert_day = 1;
+
+    n_days_to_concert_one_after = SeasonXml.numberOfDaysToCurrentDate(concert_year, concert_month, concert_day);
+
+    alert("n_days_to_concert_one_before= " + n_days_to_concert_one_before.toString()  + 
+    " n_days_to_concert= " + n_days_to_concert.toString()  + " n_days_to_concert_one_after= " + n_days_to_concert_one_after.toString()          );
+
+} // testDates
 
 function testUtilXml()
 {

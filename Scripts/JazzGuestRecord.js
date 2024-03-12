@@ -1,5 +1,5 @@
 // File: JazzGuestRecord.js
-// Date: 2024-02-07
+// Date: 2024-03-12
 // Author: Gunnar Lidén
 
 // File content
@@ -596,6 +596,61 @@ class JazzGuest
 
     } // recordsAreEqual
 
+    // Returns true if the guest record status is pending record in XML uploaded
+    isGuestStatusPendingRecordInUpdate()
+    {
+        if (this.getStatus() == JazzGuestsXml.statusPendingRecordInUploaded())
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    } // isGuestStatusPendingRecordInUpdate
+
+    // Returns true if the guest record status is added or checked by an administrator
+    isGuestStatusAddedOrCheckedByAdmin()
+    {
+        if (this.getStatus() == JazzGuestsXml.statusAdminAddedOrChecked())
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    } // isGuestStatusAddedOrCheckedByAdmin
+
+    // Returns true if the guest record status is TEST added or checked by an administrator 
+    isGuestStatusTestAddedOrCheckedByAdmin()
+    {
+        if (this.getStatus() == JazzGuestsXml.statusTestAdminAddedOrChecked())
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    } // isGuestStatusTestAddedOrCheckedByAdmin
+
+    // Returns true if the guest record status is uploaded by guest directly to homepage
+    isGuestStatusUploadedByGuestToHomepage()
+    {
+        if (this.getStatus() == JazzGuestsXml.statusUserUploadedRecordToHomepage())
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    } // isGuestStatusUploadedByGuestToHomepage
 
     ///////////////////////////////////////////////////////////////////////////
     ///////////////////////// End Utility Functions ///////////////////////////

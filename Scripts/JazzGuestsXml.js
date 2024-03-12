@@ -710,6 +710,46 @@ class JazzGuestsXml
     
     } // getRecordsImageArray
 
+    // Get an array of JazzGuest records with the file type IMG that can be published
+    getJazzGuestArray()
+    {
+        var jazz_guest_record_array = [];
+    
+        var index_out = -1;
+    
+        var n_records = this.getNumberOfGuestRecords();
+    
+        for (var record_number=1; record_number <= n_records; record_number++)
+        {
+    
+            var file_type =  this.getGuestFileType(record_number);
+
+            var record_publish =  this.getGuestPublish(record_number);
+    
+            if (file_type == 'IMG' && record_publish == "TRUE")
+            {
+                var jazz_guest_record = new JazzGuest();
+
+                jazz_guest_record.setJazzGuestRecord(this, record_number);
+
+                index_out = index_out + 1;
+    
+                jazz_guest_record_array[index_out] = jazz_guest_record;
+            }
+           
+        } // record_number
+    
+        if (index_out == -1)
+        {
+            alert("JazzGuestsXml.getRecordsImageArray failed");
+    
+            return null;
+        }
+
+        return jazz_guest_record_array;
+    
+    } // getRecordsImageArray
+
     // Get string array with all headers
     getHeaderArray()
     {

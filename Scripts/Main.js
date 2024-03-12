@@ -126,7 +126,7 @@ function callbackApplicationXml()
 
     var n_level_xml = 1;
 
-    var b_update_xml = true;
+    var b_update_xml = false;
     
     g_jazz_guests_xml = new JazzGuestsXml(callbackGuestsXml, n_level_xml, b_update_xml); 
 
@@ -135,6 +135,8 @@ function callbackApplicationXml()
 // Callback function after the creation of the guests XML object
 function callbackGuestsXml()
 {
+    var jazz_guest_array = g_jazz_guests_xml.getJazzGuestArray();
+    
     var n_records = g_jazz_guests_xml.getNumberOfGuestRecords();
 
     var header_array = g_jazz_guests_xml.getHeaderArray();

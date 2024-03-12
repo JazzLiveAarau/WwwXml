@@ -1,5 +1,5 @@
 // File: JazzGuestsXml.js
-// Date: 2024-01-22
+// Date: 2024-03-12
 // Author: Gunnar Lidén
 
 // File content
@@ -42,21 +42,84 @@ class JazzGuestsXml
         this.m_not_yet_set_node_value = "NotYetSetNodeValue";
 
         // Status strings
-        this.m_status_pending_rec_uploaded = 'PendingRecordInUploaded';
-        this.m_status_admin_added_or_checked = 'AddedOrCheckedRecordByAdmin';
-        this.m_status_test_admin_added_or_checked = 'TEST_AddedOrCheckedRecordByAdmin';
-        this.m_status_uploaded_by_guest_to_homepage = 'UploadedRecordByGuestToHomepage';
+        this.m_status_pending_rec_uploaded = '';
+        this.m_status_admin_added_or_checked = '';
+        this.m_status_test_admin_added_or_checked = '';
+        this.m_status_uploaded_by_guest_to_homepage = '';
 
         // Status strings description
-        this.m_status_pending_rec_uploaded_description = 'User uploaded to JazzGuestsLoaded.xml. Admin uploads to homepage';
-        this.m_status_admin_added_or_checked_description = 'Admin has moved from JazzGuestsLoaded.xml or added directly';
-        this.m_status_test_admin_added_or_checked_description = 'TEST Admin has moved from JazzGuestsLoaded.xml or added directly';
-        this.m_status_uploaded_by_guest_to_homepage_description = 'User uploaded to JazzGuests.xml. Admin checks record';        
+        this.m_status_pending_rec_uploaded_description = '';
+        this.m_status_admin_added_or_checked_description = '';
+        this.m_status_test_admin_added_or_checked_description = '';
+        this.m_status_uploaded_by_guest_to_homepage_description = '';   
+        
+        this.setStatusStringValues();
 
         // Loads the XML object for aapplication file and calls the function m_callback_function_name
         this.loadOneXmlFile(this, this.getXmlJazzGuestsFileName(), this.m_callback_function_name);
 
     } // constructor
+
+    // TODO Remove member variables m_status_pending_rec_uploaded, ....
+    setStatusStringValues()
+    {
+        this.m_status_pending_rec_uploaded = JazzGuestsXml.statusPendingRecordInUploaded();
+
+        this.m_status_pending_rec_uploaded_description = JazzGuestsXml.statusDescriptionPendingRecordInUploaded();
+
+        this.m_status_admin_added_or_checked = JazzGuestsXml.statusAdminAddedOrChecked();
+
+        this.m_status_admin_added_or_checked_description = JazzGuestsXml.statusDescriptionAdminAddedOrChecked();
+
+        this.m_status_test_admin_added_or_checked = JazzGuestsXml.statusTestAdminAddedOrChecked();
+
+        this.m_status_test_admin_added_or_checked_description = JazzGuestsXml.statusDescriptionTestAdminAddedOrChecked();
+
+        this.m_status_uploaded_by_guest_to_homepage = JazzGuestsXml.statusUserUploadedRecordToHomepage();
+
+        this.m_status_uploaded_by_guest_to_homepage_description = JazzGuestsXml.statusDescriptionUserUploadedRecordToHomepage();
+
+    } // setStatusStringValues
+
+    static statusPendingRecordInUploaded()
+    {
+        return 'PendingRecordInUploaded';
+    }
+
+    static statusDescriptionPendingRecordInUploaded()
+    {
+        return 'User uploaded to JazzGuestsLoaded.xml. Admin uploads to homepage';
+    }
+
+    static statusAdminAddedOrChecked()
+    {
+        return 'AddedOrCheckedRecordByAdmin';
+    }
+
+    static statusDescriptionAdminAddedOrChecked()
+    {
+        return 'Admin has moved from JazzGuestsLoaded.xml or added directly';
+    }
+
+    static statusTestAdminAddedOrChecked()
+    {
+        return 'TEST_AddedOrCheckedRecordByAdmin';
+    }
+
+    static statusDescriptionTestAdminAddedOrChecked()
+    {
+        return 'TEST Admin has moved from JazzGuestsLoaded.xml or added directly';
+    }
+
+    static statusUserUploadedRecordToHomepage()
+    {
+        return 'UploadedRecordByGuestToHomepage';
+    }
+
+    static statusDescriptionUserUploadedRecordToHomepage()
+    {
+        return 'User uploaded to JazzGuests.xml. Admin checks record';
+    }
 
     // Returns the status description for a given status key
     getStatusDescription(i_status_key)

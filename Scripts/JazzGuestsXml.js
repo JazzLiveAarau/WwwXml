@@ -41,6 +41,7 @@ class JazzGuestsXml
         // Flag that a node value not have been set
         this.m_not_yet_set_node_value = "NotYetSetNodeValue";
 
+        /*QQQQQQQQQQQ
         // Status strings
         this.m_status_pending_rec_uploaded = '';
         this.m_status_admin_added_or_checked = '';
@@ -55,11 +56,14 @@ class JazzGuestsXml
         
         this.setStatusStringValues();
 
+        QQQQQ*/
+
         // Loads the XML object for aapplication file and calls the function m_callback_function_name
         this.loadOneXmlFile(this, this.getXmlJazzGuestsFileName(), this.m_callback_function_name);
 
     } // constructor
 
+    /*QQQQQQQQQQ
     // TODO Remove member variables m_status_pending_rec_uploaded, ....
     setStatusStringValues()
     {
@@ -80,6 +84,7 @@ class JazzGuestsXml
         this.m_status_uploaded_by_guest_to_homepage_description = JazzGuestsXml.statusDescriptionUserUploadedRecordToHomepage();
 
     } // setStatusStringValues
+    QQQQ*/
 
     static statusPendingRecordInUploaded()
     {
@@ -124,21 +129,21 @@ class JazzGuestsXml
     // Returns the status description for a given status key
     getStatusDescription(i_status_key)
     {
-        if (i_status_key == this.m_status_pending_rec_uploaded)
+        if (i_status_key == JazzGuestsXml.statusPendingRecordInUploaded())
         {
-            return this.m_status_pending_rec_uploaded_description;
+            return JazzGuestsXml.statusDescriptionPendingRecordInUploaded();
         }
-        else if (i_status_key == this.m_status_admin_added_or_checked)
+        else if (i_status_key == JazzGuestsXml.statusAdminAddedOrChecked())
         {
-            return this.m_status_admin_added_or_checked_description;
+            return JazzGuestsXml.statusDescriptionAdminAddedOrChecked();
         }
-        else if (i_status_key == this.m_status_test_admin_added_or_checked)
+        else if (i_status_key == JazzGuestsXml.statusTestAdminAddedOrChecked())
         {
-            return this.m_status_test_admin_added_or_checked_description;
+            return JazzGuestsXml.statusDescriptionTestAdminAddedOrChecked();
         }
-        else if (i_status_key == this.m_status_uploaded_by_guest_to_homepage)
+        else if (i_status_key == JazzGuestsXml.statusUserUploadedRecordToHomepage())
         {
-            return this.m_status_uploaded_by_guest_to_homepage_description;
+            return JazzGuestsXml.statusDescriptionUserUploadedRecordToHomepage();
         }
         else
         {
@@ -273,7 +278,7 @@ class JazzGuestsXml
     // Returns true if the guest record status is pending record in XML uploaded
     isGuestStatusPendingRecordInUpdate(i_record_number)
     {
-        if (this.getGuestStatus(i_record_number) == this.m_status_pending_rec_uploaded)
+        if (this.getGuestStatus(i_record_number) == JazzGuestsXml.statusPendingRecordInUploaded())
         {
             return true;
         }
@@ -287,7 +292,7 @@ class JazzGuestsXml
     // Returns true if the guest record status is added or checked by an administrator
     isGuestStatusAddedOrCheckedByAdmin(i_record_number)
     {
-        if (this.getGuestStatus(i_record_number) == this.m_status_admin_added_or_checked)
+        if (this.getGuestStatus(i_record_number) == JazzGuestsXml.statusAdminAddedOrChecked())
         {
             return true;
         }
@@ -301,7 +306,7 @@ class JazzGuestsXml
     // Returns true if the guest record status is TEST added or checked by an administrator 
     isGuestStatusTestAddedOrCheckedByAdmin(i_record_number)
     {
-        if (this.getGuestStatus(i_record_number) == this.m_status_test_admin_added_or_checked)
+        if (this.getGuestStatus(i_record_number) == JazzGuestsXml.statusTestAdminAddedOrChecked())
         {
             return true;
         }
@@ -315,7 +320,7 @@ class JazzGuestsXml
     // Returns true if the guest record status is uploaded by guest directly to homepage
     isGuestStatusUploadedByGuestToHomepage(i_record_number)
     {
-        if (this.getGuestStatus(i_record_number) == this.m_status_uploaded_by_guest_to_homepage)
+        if (this.getGuestStatus(i_record_number) == JazzGuestsXml.statusUserUploadedRecordToHomepage())
         {
             return true;
         }
@@ -482,28 +487,28 @@ class JazzGuestsXml
    // Sets the guest record status to pending record in XMK update
    setGuestStatusPendingRecordInUpdate(i_record_number)
    {
-        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_pending_rec_uploaded);
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, JazzGuestsXml.statusPendingRecordInUploaded());
         
    } // setGuestStatusPendingRecordInUpdate  
 
    // Sets the guest record status to added or checked by an administrator
    setGuestStatusAddedOrCheckedByAdmin(i_record_number)
    {
-        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_admin_added_or_checked);
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, JazzGuestsXml.statusAdminAddedOrChecked());
         
    } // setGuestStatusAddedOrCheckedByAdmin
 
    // Sets the guest record status to uploaded directly to homepage by guest
    setGuestStatusUploadedByGuestToHomepage(i_record_number)
    {
-        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_uploaded_by_guest_to_homepage);
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, JazzGuestsXml.statusUserUploadedRecordToHomepage());
         
    } // setGuestStatusUploadedByGuestToHomepage
 
    // Sets the guest record status to TEST added or checked by an administrator
    setGuestStatusTestAddedOrCheckedByAdmin(i_record_number)
    {
-        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, this.m_status_test_admin_added_or_checked);
+        return this.setGuestNodeValue(this.m_tags.getGuestStatus(), i_record_number, JazzGuestsXml.statusTestAdminAddedOrChecked());
         
    } // setGuestStatusTestAddedOrCheckedByAdmin	
 

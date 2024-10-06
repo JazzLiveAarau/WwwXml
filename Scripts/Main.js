@@ -136,6 +136,8 @@ function callbackApplicationXml()
 function callbackGuestsXml()
 {
     var jazz_guest_array = g_jazz_guests_xml.getJazzGuestArray();
+
+    // 20241006 Was not uploaded to the server ?? writeJazzGuestRecordArrayCode(jazz_guest_array);
     
     var n_records = g_jazz_guests_xml.getNumberOfGuestRecords();
 
@@ -196,6 +198,74 @@ function callbackGuestsXml()
     g_jazz_season_xml = new SeasonXml(callbackSeasonXml, n_level_xml, season_start_year);
 
 } // callbackGuestsXml
+
+var g_jazz_guest_rec_code_str = '';
+
+function writeJazzGuestRecordArrayCode(i_jazz_guest_array)
+{
+    g_jazz_guest_rec_code_str = '';
+    
+    // console.log('var jazz_guest_array = [];');
+
+    g_jazz_guest_rec_code_str += 'var jazz_guest_array = []; \n';
+
+    var n_rec = i_jazz_guest_array.length;
+
+    n_rec = 5; // QQQQQQQQ
+
+    for (var index_rec=0; index_rec < n_rec; index_rec++)
+    {
+        var jazz_guest_rec = i_jazz_guest_array[index_rec];
+
+        writeJazzGuestRecordCode(jazz_guest_rec, index_rec);
+
+    }
+
+    console.log(g_jazz_guest_rec_code_str);
+
+}
+
+function writeJazzGuestRecordCode(i_jazz_guest_rec, i_index_rec)
+{
+    var strt_str = 'jazz_guest_array[' + i_index_rec.toString() + ']';
+
+    g_jazz_guest_rec_code_str += strt_str + ' = new JazzGuest(); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setHeader("'+ i_jazz_guest_rec.getHeader() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setText("'+ i_jazz_guest_rec.getText() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setNames("'+ i_jazz_guest_rec.getNames() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setFileName("'+ i_jazz_guest_rec.getFileName() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setFileType("'+ i_jazz_guest_rec.getFileType() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setStatus("'+ i_jazz_guest_rec.getStatus() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setBand("'+ i_jazz_guest_rec.getBand() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setMusicians("'+ i_jazz_guest_rec.getMusicians() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setYear('+ i_jazz_guest_rec.getYear() + '); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setMonth('+ i_jazz_guest_rec.getMonth() + '); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setDay('+ i_jazz_guest_rec.getDay() + '); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setRemark("'+ i_jazz_guest_rec.getRemark() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setAvatar("'+ i_jazz_guest_rec.getAvatar() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setEmail("'+ i_jazz_guest_rec.getEmail() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setTelephone("'+ i_jazz_guest_rec.getTelephone() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setPublish("'+ i_jazz_guest_rec.getPublish() + '"); \n';
+
+    g_jazz_guest_rec_code_str += strt_str + '.setRegNumber('+ i_jazz_guest_rec.getRegNumber() + '); \n';
+
+} // writeJazzGuestRecordCode
 
 function displayXmlObject()
 {

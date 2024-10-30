@@ -46,6 +46,7 @@ $file_content .= "\n" . file_get_contents('../Scripts/PhotosSearch.js');
 $file_content .= "\n" . file_get_contents('../Scripts/PhotoDataList.js');
 $file_content .= "\n" . file_get_contents('../Scripts/PrettyPrintXml.js');
 $file_content .= "\n" . file_get_contents('../Scripts/UtilXml.js');
+$file_content .= "\n" . file_get_contents('../Scripts/ApplicationsVersionXml.js');
 
 $dir_name= '../../JazzScripts/';
 

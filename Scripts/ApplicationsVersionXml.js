@@ -441,7 +441,7 @@ class ApplicationsVersion
     {
         var ret_file_name = '';
 
-        ret_file_name = this.m_url_relative_dir + 'ApplicationsVersion/' + 'ApplicationsVersion.xml';
+        ret_file_name = this.m_url_relative_dir + 'ApplicationsVersionXml/' + 'ApplicationsVersion.xml';
 
         /*QQQQQQ
         var level_xml_str = '';

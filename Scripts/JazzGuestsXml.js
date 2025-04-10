@@ -1,5 +1,5 @@
 // File: JazzGuestsXml.js
-// Date: 2024-03-12
+// Date: 2025-04-10
 // Author: Gunnar Lidén
 
 // File content
@@ -797,6 +797,32 @@ class JazzGuestsXml
         return record_header_array;
 
     } // getHeaderArray
+
+    // Returns the record number for a given registration number <JazzGuestRegNumber>
+    // Returns negative number if a record not is found
+    getRecordNumberForRegistrationNumber(i_registration_number)
+    {
+        var ret_record_number = -1;
+
+        var n_records = this.getNumberOfGuestRecords();
+    
+        for (var record_number=1; record_number <= n_records; record_number++)
+        {
+    
+            var registration_number =  this.getGuestRegNumber(record_number);
+
+            if (registration_number == i_registration_number)
+            {
+                ret_record_number = record_number;
+
+                break;
+            }
+            
+        }
+
+        return ret_record_number;
+
+    } // getRecordNumberForRegistrationNumber
 
     ///////////////////////////////////////////////////////////////////////////
     ///////////////////////// End Member Utility Functions ////////////////////

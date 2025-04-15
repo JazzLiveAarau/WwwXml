@@ -1,5 +1,5 @@
 // File: Main.js
-// Date: 2024-02-29
+// Date: 2025-04-15
 // Author: Gunnar Lidén
 
 // Inhalt
@@ -372,7 +372,7 @@ function getIdDivElementPrettyPrint()
 // /www/JazzScripts/. The directory name is defined in file MergeXml.php.
 function eventMergeFiles()
 {
-    var file_name = 'Xml_20231214.js';
+    var file_name = 'Xml_20250415.js';
 
     $.post
       ('PhpMerge/MergeXml.php',

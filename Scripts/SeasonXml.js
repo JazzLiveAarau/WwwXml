@@ -1,5 +1,5 @@
 // File: SeasonXml.js
-// Date: 2023-12-10
+// Date: 2025-11-29
 // Author: Gunnar Lidén
 
 // File content
@@ -185,6 +185,20 @@ class SeasonXml
        return this.getConcertNodeValue(this.m_tags.getPlace(), i_concert_number);
        
    } // getPlace 
+
+   // Returns the street for the concert place
+   getStreet(i_concert_number)
+   {
+       return this.getConcertNodeValue(this.m_tags.getStreet(), i_concert_number);
+       
+   } // getStreet
+
+   // Returns the city for the concert place
+   getCity(i_concert_number)
+   {
+       return this.getConcertNodeValue(this.m_tags.getCity(), i_concert_number);
+       
+   } // getCity
 
    // Returns the concert cancelled flag
    // DO NOT CALL THIS FUNCTION DIRECTLY. ALWAYS CALL ConcertIsCancelled
@@ -1018,6 +1032,8 @@ class SeasonTags
         this.m_tag_end_hour = "TimeEndHour";
         this.m_tag_end_minute = "TimeEndMinute";
         this.m_tag_place = "Place";
+        this.m_tag_street = "Street";
+        this.m_tag_city = "City";
         this.m_tag_publish_flyer_text = "PublishFlyerText";
         this.m_tag_concert_cancelled = "ConcertCancelled";
         this.m_tag_band_name = "BandName";
@@ -1085,6 +1101,8 @@ class SeasonTags
     getEndHour(){return this.m_tag_end_hour;} // Previously getConcertEndHour
     getEndMinute(){return this.m_tag_end_minute;} // Previously getConcertEndMinute
     getPlace(){return this.m_tag_place;} // Previously getConcertPlace
+    getStreet(){return this.m_tag_street;}
+    getCity(){return this.m_tag_city;}
 
     getCancelled(){return this.m_tag_concert_cancelled;} // Not defined in old (before 2019) season programs // Previously getConcertCancelled
     getBandName(){return this.m_tag_band_name;} 

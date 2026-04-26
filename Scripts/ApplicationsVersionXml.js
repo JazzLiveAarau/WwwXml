@@ -1,5 +1,5 @@
 // File: ApplicationsVersionXml.js
-// Date: 2024-10-30
+// Date: 2026-04-26
 // Author: Gunnar Lidén
 
 // File content
@@ -248,10 +248,15 @@ class ApplicationsVersion
 
             i_object_xml.setXmlObject(xml_object);
 
-            if (i_callback_function_name.length > 0)
+            // Call the call back function after loading the XML file if the function name is defined
+            if (typeof i_callback_function_name === 'function')
             {
                 i_callback_function_name(); 
-            }  
+            } 
+            else
+            { 
+                console.log('Callback function is not defined or not a function');
+            }
         }
         else if (jazz_xmlhttp.readyState == 4 && jazz_xmlhttp.status == 404) 
         {
